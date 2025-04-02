@@ -1,0 +1,71 @@
+{
+    "statistics": {
+        "total_nodes": 859,
+        "total_edges": 1261,
+        "node_types": {
+            "file": 57,
+            "class": 51,
+            "function": 309,
+            "variable": 442
+        },
+        "relationship_types": {
+            "classin": 49,
+            "methodin": 79,
+            "var": 442,
+            "call": 673,
+            "parentof": 11,
+            "instantiate": 7
+        },
+        "files_count": 57,
+        "classes_count": 51,
+        "functions_count": 309,
+        "variables_count": 442,
+        "file_extensions": {
+            ".py": 57
+        },
+        "nodes_density": 1.4679860302677532,
+        "most_connected_nodes": [
+            {
+                "id": 547,
+                "name": "QueryUseCase",
+                "type": "class",
+                "in_degree": 1,
+                "out_degree": 78,
+                "total_connections": 79
+            },
+            {
+                "id": 612,
+                "name": "FileUploadUseCase",
+                "type": "class",
+                "in_degree": 1,
+                "out_degree": 69,
+                "total_connections": 70
+            },
+            {
+                "id": 660,
+                "name": "IndexUpsertUseCase",
+                "type": "class",
+                "in_degree": 1,
+                "out_degree": 64,
+                "total_connections": 65
+            },
+            {
+                "id": 483,
+                "name": "RerankingUseCase",
+                "type": "class",
+                "in_degree": 1,
+                "out_degree": 56,
+                "total_connections": 57
+            },
+            {
+                "id": 60,
+                "name": "PipelineManager",
+                "type": "class",
+                "in_degree": 1,
+                "out_degree": 51,
+                "total_connections": 52
+            }
+        ],
+        "average_connections_per_node": 2.9705535924617195
+    }
+}
