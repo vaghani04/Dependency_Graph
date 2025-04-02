@@ -58,4 +58,3 @@ python visualizer.py
 - `knowledge_graph.py`: Builds the knowledge graph by parsing Python files
 - `graph_query.py`: Queries the knowledge graph to find function references and visualize call chains
 - `visualizer.py`: Additional visualization tools for the knowledge graph
-``` 
