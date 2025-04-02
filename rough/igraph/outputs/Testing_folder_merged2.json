@@ -1,0 +1,4411 @@
+{
+  "metadata": {
+    "node_count": 117,
+    "edge_count": 141,
+    "cluster_count": 6
+  },
+  "nodes": [
+    {
+      "id": 1,
+      "name": "error_handler.py",
+      "type": "file",
+      "file": "/Users/vishwasbheda/Developer/Maunik_dependency/Testing_folder/core/error_handler.py",
+      "line_no": null,
+      "complexity": 1.0,
+      "level": 0,
+      "cluster": 0
+    },
+    {
+      "id": 2,
+      "name": "fastapi",
+      "type": "module",
+      "file": "external:fastapi",
+      "line_no": 1,
+      "complexity": 1.0,
+      "level": 0,
+      "cluster": 1
+    },
+    {
+      "id": 3,
+      "name": "exception_handler",
+      "type": "function",
+      "file": "/Users/vishwasbheda/Developer/Maunik_dependency/Testing_folder/core/error_handler.py",
+      "line_no": 4,
+      "complexity": 1.0,
+      "level": 2,
+      "cluster": 2
+    },
+    {
+      "id": 4,
+      "name": "JSONResponse",
+      "type": "function",
+      "file": "unknown (external or attribute call)",
+      "line_no": 7,
+      "complexity": 1.0,
+      "level": 0,
+      "cluster": 2
+    },
+    {
+      "id": 5,
+      "name": "exception_handler",
+      "type": "function",
+      "file": "unknown (external or attribute call)",
+      "line_no": 5,
+      "complexity": 1.0,
+      "level": 0,
+      "cluster": 2
+    },
+    {
+      "id": 6,
+      "name": "register_exception_handlers",
+      "type": "function",
+      "file": "/Users/vishwasbheda/Developer/Maunik_dependency/Testing_folder/core/error_handler.py",
+      "line_no": 13,
+      "complexity": 1.0,
+      "level": 2,
+      "cluster": 2
+    },
+    {
+      "id": 7,
+      "name": "main.py",
+      "type": "file",
+      "file": "/Users/vishwasbheda/Developer/Maunik_dependency/Testing_folder/main.py",
+      "line_no": null,
+      "complexity": 1.0,
+      "level": 0,
+      "cluster": 0
+    },
+    {
+      "id": 8,
+      "name": "config",
+      "type": "module",
+      "file": "external:config",
+      "line_no": 2,
+      "complexity": 1.0,
+      "level": 0,
+      "cluster": 1
+    },
+    {
+      "id": 9,
+      "name": "core",
+      "type": "module",
+      "file": "external:core",
+      "line_no": 3,
+      "complexity": 1.0,
+      "level": 0,
+      "cluster": 1
+    },
+    {
+      "id": 10,
+      "name": "routes",
+      "type": "module",
+      "file": "external:routes",
+      "line_no": 4,
+      "complexity": 1.0,
+      "level": 0,
+      "cluster": 1
+    },
+    {
+      "id": 11,
+      "name": "app",
+      "type": "variable",
+      "file": "/Users/vishwasbheda/Developer/Maunik_dependency/Testing_folder/main.py",
+      "line_no": 6,
+      "complexity": 1.0,
+      "level": 2,
+      "cluster": 3
+    },
+    {
+      "id": 12,
+      "name": "FastAPI",
+      "type": "function",
+      "file": "unknown (external or attribute call)",
+      "line_no": 6,
+      "complexity": 1.0,
+      "level": 0,
+      "cluster": 2
+    },
+    {
+      "id": 13,
+      "name": "init_db",
+      "type": "function",
+      "file": "unknown (external or attribute call)",
+      "line_no": 8,
+      "complexity": 1.0,
+      "level": 0,
+      "cluster": 2
+    },
+    {
+      "id": 14,
+      "name": "register_exception_handlers",
+      "type": "function",
+      "file": "unknown (external or attribute call)",
+      "line_no": 9,
+      "complexity": 1.0,
+      "level": 0,
+      "cluster": 2
+    },
+    {
+      "id": 15,
+      "name": "include_router",
+      "type": "function",
+      "file": "unknown (external or attribute call)",
+      "line_no": 11,
+      "complexity": 1.0,
+      "level": 0,
+      "cluster": 2
+    },
+    {
+      "id": 16,
+      "name": "user_schema.py",
+      "type": "file",
+      "file": "/Users/vishwasbheda/Developer/Maunik_dependency/Testing_folder/models/schemas/user_schema.py",
+      "line_no": null,
+      "complexity": 1.0,
+      "level": 0,
+      "cluster": 0
+    },
+    {
+      "id": 17,
+      "name": "pydantic",
+      "type": "module",
+      "file": "external:pydantic",
+      "line_no": 1,
+      "complexity": 1.0,
+      "level": 0,
+      "cluster": 1
+    },
+    {
+      "id": 18,
+      "name": "UserCreate",
+      "type": "class",
+      "file": "/Users/vishwasbheda/Developer/Maunik_dependency/Testing_folder/models/schemas/user_schema.py",
+      "line_no": 3,
+      "complexity": 1.0,
+      "level": 1,
+      "cluster": 4
+    },
+    {
+      "id": 19,
+      "name": "BaseModel",
+      "type": "class",
+      "file": "external:BaseModel",
+      "line_no": 3,
+      "complexity": 1.0,
+      "level": 0,
+      "cluster": 4
+    },
+    {
+      "id": 20,
+      "name": "UserResponse",
+      "type": "class",
+      "file": "/Users/vishwasbheda/Developer/Maunik_dependency/Testing_folder/models/schemas/user_schema.py",
+      "line_no": 7,
+      "complexity": 1.0,
+      "level": 1,
+      "cluster": 4
+    },
+    {
+      "id": 21,
+      "name": "auth_controller.py",
+      "type": "file",
+      "file": "/Users/vishwasbheda/Developer/Maunik_dependency/Testing_folder/controllers/auth_controller.py",
+      "line_no": null,
+      "complexity": 1.0,
+      "level": 0,
+      "cluster": 0
+    },
+    {
+      "id": 22,
+      "name": "models",
+      "type": "module",
+      "file": "external:models",
+      "line_no": 2,
+      "complexity": 1.0,
+      "level": 0,
+      "cluster": 1
+    },
+    {
+      "id": 23,
+      "name": "services",
+      "type": "module",
+      "file": "external:services",
+      "line_no": 3,
+      "complexity": 1.0,
+      "level": 0,
+      "cluster": 1
+    },
+    {
+      "id": 24,
+      "name": "repositories",
+      "type": "module",
+      "file": "external:repositories",
+      "line_no": 5,
+      "complexity": 1.0,
+      "level": 0,
+      "cluster": 1
+    },
+    {
+      "id": 25,
+      "name": "utils",
+      "type": "module",
+      "file": "external:utils",
+      "line_no": 7,
+      "complexity": 1.0,
+      "level": 0,
+      "cluster": 1
+    },
+    {
+      "id": 26,
+      "name": "router",
+      "type": "variable",
+      "file": "/Users/vishwasbheda/Developer/Maunik_dependency/Testing_folder/controllers/auth_controller.py",
+      "line_no": 9,
+      "complexity": 1.0,
+      "level": 2,
+      "cluster": 3
+    },
+    {
+      "id": 27,
+      "name": "APIRouter",
+      "type": "function",
+      "file": "unknown (external or attribute call)",
+      "line_no": 9,
+      "complexity": 1.0,
+      "level": 0,
+      "cluster": 2
+    },
+    {
+      "id": 28,
+      "name": "get_user_repository",
+      "type": "function",
+      "file": "/Users/vishwasbheda/Developer/Maunik_dependency/Testing_folder/controllers/auth_controller.py",
+      "line_no": 11,
+      "complexity": 1.0,
+      "level": 2,
+      "cluster": 2
+    },
+    {
+      "id": 29,
+      "name": "Depends",
+      "type": "function",
+      "file": "unknown (external or attribute call)",
+      "line_no": 11,
+      "complexity": 1.0,
+      "level": 0,
+      "cluster": 2
+    },
+    {
+      "id": 30,
+      "name": "UserRepository",
+      "type": "function",
+      "file": "unknown (external or attribute call)",
+      "line_no": 12,
+      "complexity": 1.0,
+      "level": 0,
+      "cluster": 2
+    },
+    {
+      "id": 31,
+      "name": "get_submit_usecase",
+      "type": "function",
+      "file": "/Users/vishwasbheda/Developer/Maunik_dependency/Testing_folder/controllers/auth_controller.py",
+      "line_no": 14,
+      "complexity": 1.0,
+      "level": 2,
+      "cluster": 2
+    },
+    {
+      "id": 32,
+      "name": "SubmitUsecase",
+      "type": "function",
+      "file": "unknown (external or attribute call)",
+      "line_no": 15,
+      "complexity": 1.0,
+      "level": 0,
+      "cluster": 2
+    },
+    {
+      "id": 33,
+      "name": "get_auth_service",
+      "type": "function",
+      "file": "/Users/vishwasbheda/Developer/Maunik_dependency/Testing_folder/controllers/auth_controller.py",
+      "line_no": 17,
+      "complexity": 1.0,
+      "level": 2,
+      "cluster": 2
+    },
+    {
+      "id": 34,
+      "name": "AuthService",
+      "type": "function",
+      "file": "unknown (external or attribute call)",
+      "line_no": 18,
+      "complexity": 1.0,
+      "level": 0,
+      "cluster": 2
+    },
+    {
+      "id": 35,
+      "name": "response",
+      "type": "variable",
+      "file": "/Users/vishwasbheda/Developer/Maunik_dependency/Testing_folder/controllers/auth_controller.py",
+      "line_no": 23,
+      "complexity": 1.0,
+      "level": 2,
+      "cluster": 3
+    },
+    {
+      "id": 36,
+      "name": "submit",
+      "type": "function",
+      "file": "unknown (external or attribute call)",
+      "line_no": 23,
+      "complexity": 1.0,
+      "level": 0,
+      "cluster": 2
+    },
+    {
+      "id": 37,
+      "name": "HTTPException",
+      "type": "function",
+      "file": "unknown (external or attribute call)",
+      "line_no": 26,
+      "complexity": 1.0,
+      "level": 0,
+      "cluster": 2
+    },
+    {
+      "id": 38,
+      "name": "str",
+      "type": "function",
+      "file": "unknown (external or attribute call)",
+      "line_no": 26,
+      "complexity": 1.0,
+      "level": 0,
+      "cluster": 2
+    },
+    {
+      "id": 39,
+      "name": "post",
+      "type": "function",
+      "file": "unknown (external or attribute call)",
+      "line_no": 20,
+      "complexity": 1.0,
+      "level": 0,
+      "cluster": 2
+    },
+    {
+      "id": 40,
+      "name": "settings.py",
+      "type": "file",
+      "file": "/Users/vishwasbheda/Developer/Maunik_dependency/Testing_folder/config/settings.py",
+      "line_no": null,
+      "complexity": 1.0,
+      "level": 0,
+      "cluster": 0
+    },
+    {
+      "id": 41,
+      "name": "Settings",
+      "type": "class",
+      "file": "/Users/vishwasbheda/Developer/Maunik_dependency/Testing_folder/config/settings.py",
+      "line_no": 3,
+      "complexity": 1.0,
+      "level": 1,
+      "cluster": 4
+    },
+    {
+      "id": 42,
+      "name": "BaseSettings",
+      "type": "class",
+      "file": "external:BaseSettings",
+      "line_no": 3,
+      "complexity": 1.0,
+      "level": 0,
+      "cluster": 4
+    },
+    {
+      "id": 43,
+      "name": "Config",
+      "type": "class",
+      "file": "/Users/vishwasbheda/Developer/Maunik_dependency/Testing_folder/config/settings.py",
+      "line_no": 9,
+      "complexity": 1.0,
+      "level": 1,
+      "cluster": 4
+    },
+    {
+      "id": 44,
+      "name": "env_file",
+      "type": "variable",
+      "file": "/Users/vishwasbheda/Developer/Maunik_dependency/Testing_folder/config/settings.py",
+      "line_no": 10,
+      "complexity": 1.0,
+      "level": 2,
+      "cluster": 3
+    },
+    {
+      "id": 45,
+      "name": "security.py",
+      "type": "file",
+      "file": "/Users/vishwasbheda/Developer/Maunik_dependency/Testing_folder/utils/security.py",
+      "line_no": null,
+      "complexity": 1.0,
+      "level": 0,
+      "cluster": 0
+    },
+    {
+      "id": 46,
+      "name": "jose",
+      "type": "module",
+      "file": "external:jose",
+      "line_no": 2,
+      "complexity": 1.0,
+      "level": 0,
+      "cluster": 1
+    },
+    {
+      "id": 47,
+      "name": "passlib",
+      "type": "module",
+      "file": "external:passlib",
+      "line_no": 3,
+      "complexity": 1.0,
+      "level": 0,
+      "cluster": 1
+    },
+    {
+      "id": 48,
+      "name": "timeout",
+      "type": "variable",
+      "file": "/Users/vishwasbheda/Developer/Maunik_dependency/Testing_folder/utils/security.py",
+      "line_no": 4,
+      "complexity": 1.0,
+      "level": 2,
+      "cluster": 3
+    },
+    {
+      "id": 49,
+      "name": "pwd_context",
+      "type": "variable",
+      "file": "/Users/vishwasbheda/Developer/Maunik_dependency/Testing_folder/utils/security.py",
+      "line_no": 5,
+      "complexity": 1.0,
+      "level": 2,
+      "cluster": 3
+    },
+    {
+      "id": 50,
+      "name": "CryptContext",
+      "type": "function",
+      "file": "unknown (external or attribute call)",
+      "line_no": 5,
+      "complexity": 1.0,
+      "level": 0,
+      "cluster": 2
+    },
+    {
+      "id": 51,
+      "name": "SECRET_KEY",
+      "type": "variable",
+      "file": "/Users/vishwasbheda/Developer/Maunik_dependency/Testing_folder/utils/security.py",
+      "line_no": 7,
+      "complexity": 1.0,
+      "level": 2,
+      "cluster": 3
+    },
+    {
+      "id": 52,
+      "name": "ALGORITHM",
+      "type": "variable",
+      "file": "/Users/vishwasbheda/Developer/Maunik_dependency/Testing_folder/utils/security.py",
+      "line_no": 8,
+      "complexity": 1.0,
+      "level": 2,
+      "cluster": 3
+    },
+    {
+      "id": 53,
+      "name": "get_password_hash",
+      "type": "function",
+      "file": "/Users/vishwasbheda/Developer/Maunik_dependency/Testing_folder/utils/security.py",
+      "line_no": 11,
+      "complexity": 1.0,
+      "level": 2,
+      "cluster": 2
+    },
+    {
+      "id": 54,
+      "name": "hash",
+      "type": "function",
+      "file": "unknown (external or attribute call)",
+      "line_no": 12,
+      "complexity": 1.0,
+      "level": 0,
+      "cluster": 2
+    },
+    {
+      "id": 55,
+      "name": "verify_password",
+      "type": "function",
+      "file": "/Users/vishwasbheda/Developer/Maunik_dependency/Testing_folder/utils/security.py",
+      "line_no": 14,
+      "complexity": 1.0,
+      "level": 2,
+      "cluster": 2
+    },
+    {
+      "id": 56,
+      "name": "verify",
+      "type": "function",
+      "file": "unknown (external or attribute call)",
+      "line_no": 15,
+      "complexity": 1.0,
+      "level": 0,
+      "cluster": 2
+    },
+    {
+      "id": 57,
+      "name": "create_access_token",
+      "type": "function",
+      "file": "/Users/vishwasbheda/Developer/Maunik_dependency/Testing_folder/utils/security.py",
+      "line_no": 17,
+      "complexity": 1.0,
+      "level": 2,
+      "cluster": 2
+    },
+    {
+      "id": 58,
+      "name": "datetime",
+      "type": "module",
+      "file": "external:datetime",
+      "line_no": 18,
+      "complexity": 1.0,
+      "level": 0,
+      "cluster": 1
+    },
+    {
+      "id": 59,
+      "name": "to_encode",
+      "type": "variable",
+      "file": "/Users/vishwasbheda/Developer/Maunik_dependency/Testing_folder/utils/security.py",
+      "line_no": 19,
+      "complexity": 1.0,
+      "level": 2,
+      "cluster": 3
+    },
+    {
+      "id": 60,
+      "name": "copy",
+      "type": "function",
+      "file": "unknown (external or attribute call)",
+      "line_no": 19,
+      "complexity": 1.0,
+      "level": 0,
+      "cluster": 2
+    },
+    {
+      "id": 61,
+      "name": "expire",
+      "type": "variable",
+      "file": "/Users/vishwasbheda/Developer/Maunik_dependency/Testing_folder/utils/security.py",
+      "line_no": 20,
+      "complexity": 1.0,
+      "level": 2,
+      "cluster": 3
+    },
+    {
+      "id": 62,
+      "name": "utcnow",
+      "type": "function",
+      "file": "unknown (external or attribute call)",
+      "line_no": 20,
+      "complexity": 1.0,
+      "level": 0,
+      "cluster": 2
+    },
+    {
+      "id": 63,
+      "name": "timedelta",
+      "type": "function",
+      "file": "unknown (external or attribute call)",
+      "line_no": 20,
+      "complexity": 1.0,
+      "level": 0,
+      "cluster": 2
+    },
+    {
+      "id": 64,
+      "name": "update",
+      "type": "function",
+      "file": "unknown (external or attribute call)",
+      "line_no": 21,
+      "complexity": 1.0,
+      "level": 0,
+      "cluster": 2
+    },
+    {
+      "id": 65,
+      "name": "encoded_jwt",
+      "type": "variable",
+      "file": "/Users/vishwasbheda/Developer/Maunik_dependency/Testing_folder/utils/security.py",
+      "line_no": 22,
+      "complexity": 1.0,
+      "level": 2,
+      "cluster": 3
+    },
+    {
+      "id": 66,
+      "name": "encode",
+      "type": "function",
+      "file": "unknown (external or attribute call)",
+      "line_no": 22,
+      "complexity": 1.0,
+      "level": 0,
+      "cluster": 2
+    },
+    {
+      "id": 67,
+      "name": "verify_token",
+      "type": "function",
+      "file": "/Users/vishwasbheda/Developer/Maunik_dependency/Testing_folder/utils/security.py",
+      "line_no": 25,
+      "complexity": 1.0,
+      "level": 2,
+      "cluster": 2
+    },
+    {
+      "id": 68,
+      "name": "payload",
+      "type": "variable",
+      "file": "/Users/vishwasbheda/Developer/Maunik_dependency/Testing_folder/utils/security.py",
+      "line_no": 30,
+      "complexity": 1.0,
+      "level": 2,
+      "cluster": 3
+    },
+    {
+      "id": 69,
+      "name": "decode",
+      "type": "function",
+      "file": "unknown (external or attribute call)",
+      "line_no": 30,
+      "complexity": 1.0,
+      "level": 0,
+      "cluster": 2
+    },
+    {
+      "id": 70,
+      "name": "get",
+      "type": "function",
+      "file": "unknown (external or attribute call)",
+      "line_no": 31,
+      "complexity": 1.0,
+      "level": 0,
+      "cluster": 2
+    },
+    {
+      "id": 71,
+      "name": "auth_routes.py",
+      "type": "file",
+      "file": "/Users/vishwasbheda/Developer/Maunik_dependency/Testing_folder/routes/auth_routes.py",
+      "line_no": null,
+      "complexity": 1.0,
+      "level": 0,
+      "cluster": 0
+    },
+    {
+      "id": 72,
+      "name": "controllers",
+      "type": "module",
+      "file": "external:controllers",
+      "line_no": 2,
+      "complexity": 1.0,
+      "level": 0,
+      "cluster": 1
+    },
+    {
+      "id": 73,
+      "name": "auth_router",
+      "type": "variable",
+      "file": "/Users/vishwasbheda/Developer/Maunik_dependency/Testing_folder/routes/auth_routes.py",
+      "line_no": 4,
+      "complexity": 1.0,
+      "level": 2,
+      "cluster": 3
+    },
+    {
+      "id": 74,
+      "name": "submit_usecase.py",
+      "type": "file",
+      "file": "/Users/vishwasbheda/Developer/Maunik_dependency/Testing_folder/usecases/auth/submit_usecase.py",
+      "line_no": null,
+      "complexity": 1.0,
+      "level": 0,
+      "cluster": 0
+    },
+    {
+      "id": 75,
+      "name": "SubmitUsecase",
+      "type": "class",
+      "file": "/Users/vishwasbheda/Developer/Maunik_dependency/Testing_folder/usecases/auth/submit_usecase.py",
+      "line_no": 3,
+      "complexity": 1.0,
+      "level": 1,
+      "cluster": 4
+    },
+    {
+      "id": 76,
+      "name": "__init__",
+      "type": "method",
+      "file": "/Users/vishwasbheda/Developer/Maunik_dependency/Testing_folder/usecases/auth/submit_usecase.py",
+      "line_no": 4,
+      "complexity": 1.0,
+      "level": 2,
+      "cluster": 5
+    },
+    {
+      "id": 77,
+      "name": "submit_logic",
+      "type": "method",
+      "file": "/Users/vishwasbheda/Developer/Maunik_dependency/Testing_folder/usecases/auth/submit_usecase.py",
+      "line_no": 7,
+      "complexity": 1.0,
+      "level": 2,
+      "cluster": 5
+    },
+    {
+      "id": 78,
+      "name": "user",
+      "type": "variable",
+      "file": "/Users/vishwasbheda/Developer/Maunik_dependency/Testing_folder/usecases/auth/submit_usecase.py",
+      "line_no": 8,
+      "complexity": 1.0,
+      "level": 2,
+      "cluster": 3
+    },
+    {
+      "id": 79,
+      "name": "add_user",
+      "type": "function",
+      "file": "unknown (external or attribute call)",
+      "line_no": 8,
+      "complexity": 1.0,
+      "level": 0,
+      "cluster": 2
+    },
+    {
+      "id": 80,
+      "name": "auth_service.py",
+      "type": "file",
+      "file": "/Users/vishwasbheda/Developer/Maunik_dependency/Testing_folder/services/auth_service.py",
+      "line_no": null,
+      "complexity": 1.0,
+      "level": 0,
+      "cluster": 0
+    },
+    {
+      "id": 81,
+      "name": "AuthService",
+      "type": "class",
+      "file": "/Users/vishwasbheda/Developer/Maunik_dependency/Testing_folder/services/auth_service.py",
+      "line_no": 4,
+      "complexity": 1.0,
+      "level": 1,
+      "cluster": 4
+    },
+    {
+      "id": 82,
+      "name": "__init__",
+      "type": "method",
+      "file": "/Users/vishwasbheda/Developer/Maunik_dependency/Testing_folder/services/auth_service.py",
+      "line_no": 5,
+      "complexity": 1.0,
+      "level": 2,
+      "cluster": 5
+    },
+    {
+      "id": 83,
+      "name": "submit",
+      "type": "method",
+      "file": "/Users/vishwasbheda/Developer/Maunik_dependency/Testing_folder/services/auth_service.py",
+      "line_no": 8,
+      "complexity": 1.0,
+      "level": 2,
+      "cluster": 5
+    },
+    {
+      "id": 84,
+      "name": "submit_logic",
+      "type": "function",
+      "file": "unknown (external or attribute call)",
+      "line_no": 9,
+      "complexity": 1.0,
+      "level": 0,
+      "cluster": 2
+    },
+    {
+      "id": 85,
+      "name": "database.py",
+      "type": "file",
+      "file": "/Users/vishwasbheda/Developer/Maunik_dependency/Testing_folder/config/database.py",
+      "line_no": null,
+      "complexity": 1.0,
+      "level": 0,
+      "cluster": 0
+    },
+    {
+      "id": 86,
+      "name": "sqlalchemy",
+      "type": "module",
+      "file": "external:sqlalchemy",
+      "line_no": 1,
+      "complexity": 1.0,
+      "level": 0,
+      "cluster": 1
+    },
+    {
+      "id": 87,
+      "name": "settings",
+      "type": "variable",
+      "file": "/Users/vishwasbheda/Developer/Maunik_dependency/Testing_folder/config/database.py",
+      "line_no": 6,
+      "complexity": 1.0,
+      "level": 2,
+      "cluster": 3
+    },
+    {
+      "id": 88,
+      "name": "Settings",
+      "type": "function",
+      "file": "unknown (external or attribute call)",
+      "line_no": 6,
+      "complexity": 1.0,
+      "level": 0,
+      "cluster": 2
+    },
+    {
+      "id": 89,
+      "name": "engine",
+      "type": "variable",
+      "file": "/Users/vishwasbheda/Developer/Maunik_dependency/Testing_folder/config/database.py",
+      "line_no": 8,
+      "complexity": 1.0,
+      "level": 2,
+      "cluster": 3
+    },
+    {
+      "id": 90,
+      "name": "create_engine",
+      "type": "function",
+      "file": "unknown (external or attribute call)",
+      "line_no": 8,
+      "complexity": 1.0,
+      "level": 0,
+      "cluster": 2
+    },
+    {
+      "id": 91,
+      "name": "SessionLocal",
+      "type": "variable",
+      "file": "/Users/vishwasbheda/Developer/Maunik_dependency/Testing_folder/config/database.py",
+      "line_no": 9,
+      "complexity": 1.0,
+      "level": 2,
+      "cluster": 3
+    },
+    {
+      "id": 92,
+      "name": "sessionmaker",
+      "type": "function",
+      "file": "unknown (external or attribute call)",
+      "line_no": 9,
+      "complexity": 1.0,
+      "level": 0,
+      "cluster": 2
+    },
+    {
+      "id": 93,
+      "name": "Base",
+      "type": "variable",
+      "file": "/Users/vishwasbheda/Developer/Maunik_dependency/Testing_folder/config/database.py",
+      "line_no": 10,
+      "complexity": 1.0,
+      "level": 2,
+      "cluster": 3
+    },
+    {
+      "id": 94,
+      "name": "declarative_base",
+      "type": "function",
+      "file": "unknown (external or attribute call)",
+      "line_no": 10,
+      "complexity": 1.0,
+      "level": 0,
+      "cluster": 2
+    },
+    {
+      "id": 95,
+      "name": "get_db_session",
+      "type": "function",
+      "file": "/Users/vishwasbheda/Developer/Maunik_dependency/Testing_folder/config/database.py",
+      "line_no": 12,
+      "complexity": 1.0,
+      "level": 2,
+      "cluster": 2
+    },
+    {
+      "id": 96,
+      "name": "db",
+      "type": "variable",
+      "file": "/Users/vishwasbheda/Developer/Maunik_dependency/Testing_folder/config/database.py",
+      "line_no": 13,
+      "complexity": 1.0,
+      "level": 2,
+      "cluster": 3
+    },
+    {
+      "id": 97,
+      "name": "SessionLocal",
+      "type": "function",
+      "file": "unknown (external or attribute call)",
+      "line_no": 13,
+      "complexity": 1.0,
+      "level": 0,
+      "cluster": 2
+    },
+    {
+      "id": 98,
+      "name": "close",
+      "type": "function",
+      "file": "unknown (external or attribute call)",
+      "line_no": 17,
+      "complexity": 1.0,
+      "level": 0,
+      "cluster": 2
+    },
+    {
+      "id": 99,
+      "name": "user.py",
+      "type": "file",
+      "file": "/Users/vishwasbheda/Developer/Maunik_dependency/Testing_folder/models/domain/user.py",
+      "line_no": null,
+      "complexity": 1.0,
+      "level": 0,
+      "cluster": 0
+    },
+    {
+      "id": 100,
+      "name": "User",
+      "type": "class",
+      "file": "/Users/vishwasbheda/Developer/Maunik_dependency/Testing_folder/models/domain/user.py",
+      "line_no": 5,
+      "complexity": 1.0,
+      "level": 1,
+      "cluster": 4
+    },
+    {
+      "id": 101,
+      "name": "Base",
+      "type": "class",
+      "file": "external:Base",
+      "line_no": 5,
+      "complexity": 1.0,
+      "level": 0,
+      "cluster": 4
+    },
+    {
+      "id": 102,
+      "name": "__tablename__",
+      "type": "variable",
+      "file": "/Users/vishwasbheda/Developer/Maunik_dependency/Testing_folder/models/domain/user.py",
+      "line_no": 6,
+      "complexity": 1.0,
+      "level": 2,
+      "cluster": 3
+    },
+    {
+      "id": 103,
+      "name": "id",
+      "type": "variable",
+      "file": "/Users/vishwasbheda/Developer/Maunik_dependency/Testing_folder/models/domain/user.py",
+      "line_no": 7,
+      "complexity": 1.0,
+      "level": 2,
+      "cluster": 3
+    },
+    {
+      "id": 104,
+      "name": "Column",
+      "type": "function",
+      "file": "unknown (external or attribute call)",
+      "line_no": 7,
+      "complexity": 1.0,
+      "level": 0,
+      "cluster": 2
+    },
+    {
+      "id": 105,
+      "name": "email",
+      "type": "variable",
+      "file": "/Users/vishwasbheda/Developer/Maunik_dependency/Testing_folder/models/domain/user.py",
+      "line_no": 8,
+      "complexity": 1.0,
+      "level": 2,
+      "cluster": 3
+    },
+    {
+      "id": 106,
+      "name": "hashed_password",
+      "type": "variable",
+      "file": "/Users/vishwasbheda/Developer/Maunik_dependency/Testing_folder/models/domain/user.py",
+      "line_no": 9,
+      "complexity": 1.0,
+      "level": 2,
+      "cluster": 3
+    },
+    {
+      "id": 107,
+      "name": "user_repository.py",
+      "type": "file",
+      "file": "/Users/vishwasbheda/Developer/Maunik_dependency/Testing_folder/repositories/user_repository.py",
+      "line_no": null,
+      "complexity": 1.0,
+      "level": 0,
+      "cluster": 0
+    },
+    {
+      "id": 108,
+      "name": "UserRepository",
+      "type": "class",
+      "file": "/Users/vishwasbheda/Developer/Maunik_dependency/Testing_folder/repositories/user_repository.py",
+      "line_no": 5,
+      "complexity": 1.0,
+      "level": 1,
+      "cluster": 4
+    },
+    {
+      "id": 109,
+      "name": "__init__",
+      "type": "method",
+      "file": "/Users/vishwasbheda/Developer/Maunik_dependency/Testing_folder/repositories/user_repository.py",
+      "line_no": 6,
+      "complexity": 1.0,
+      "level": 2,
+      "cluster": 5
+    },
+    {
+      "id": 110,
+      "name": "add_user",
+      "type": "method",
+      "file": "/Users/vishwasbheda/Developer/Maunik_dependency/Testing_folder/repositories/user_repository.py",
+      "line_no": 9,
+      "complexity": 1.0,
+      "level": 2,
+      "cluster": 5
+    },
+    {
+      "id": 111,
+      "name": "hashed_password",
+      "type": "variable",
+      "file": "/Users/vishwasbheda/Developer/Maunik_dependency/Testing_folder/repositories/user_repository.py",
+      "line_no": 10,
+      "complexity": 1.0,
+      "level": 2,
+      "cluster": 3
+    },
+    {
+      "id": 112,
+      "name": "get_password_hash",
+      "type": "function",
+      "file": "unknown (external or attribute call)",
+      "line_no": 10,
+      "complexity": 1.0,
+      "level": 0,
+      "cluster": 2
+    },
+    {
+      "id": 113,
+      "name": "db_user",
+      "type": "variable",
+      "file": "/Users/vishwasbheda/Developer/Maunik_dependency/Testing_folder/repositories/user_repository.py",
+      "line_no": 11,
+      "complexity": 1.0,
+      "level": 2,
+      "cluster": 3
+    },
+    {
+      "id": 114,
+      "name": "User",
+      "type": "function",
+      "file": "unknown (external or attribute call)",
+      "line_no": 11,
+      "complexity": 1.0,
+      "level": 0,
+      "cluster": 2
+    },
+    {
+      "id": 115,
+      "name": "add",
+      "type": "function",
+      "file": "unknown (external or attribute call)",
+      "line_no": 12,
+      "complexity": 1.0,
+      "level": 0,
+      "cluster": 2
+    },
+    {
+      "id": 116,
+      "name": "commit",
+      "type": "function",
+      "file": "unknown (external or attribute call)",
+      "line_no": 13,
+      "complexity": 1.0,
+      "level": 0,
+      "cluster": 2
+    },
+    {
+      "id": 117,
+      "name": "refresh",
+      "type": "function",
+      "file": "unknown (external or attribute call)",
+      "line_no": 14,
+      "complexity": 1.0,
+      "level": 0,
+      "cluster": 2
+    }
+  ],
+  "edges": [
+    {
+      "source": 1,
+      "target": 2,
+      "relationship": "import",
+      "line_no": 1,
+      "weight": 0.7,
+      "risk_score": 0.7
+    },
+    {
+      "source": 1,
+      "target": 2,
+      "relationship": "import",
+      "line_no": 2,
+      "weight": 0.7,
+      "risk_score": 0.7
+    },
+    {
+      "source": 1,
+      "target": 3,
+      "relationship": "methodin",
+      "line_no": 4,
+      "weight": 0.6,
+      "risk_score": 0.6
+    },
+    {
+      "source": 3,
+      "target": 4,
+      "relationship": "call",
+      "line_no": 7,
+      "weight": 0.8,
+      "risk_score": 0.8
+    },
+    {
+      "source": 3,
+      "target": 5,
+      "relationship": "call",
+      "line_no": 5,
+      "weight": 0.8,
+      "risk_score": 0.8
+    },
+    {
+      "source": 3,
+      "target": 4,
+      "relationship": "call",
+      "line_no": 11,
+      "weight": 0.8,
+      "risk_score": 0.8
+    },
+    {
+      "source": 3,
+      "target": 5,
+      "relationship": "call",
+      "line_no": 9,
+      "weight": 0.8,
+      "risk_score": 0.8
+    },
+    {
+      "source": 1,
+      "target": 6,
+      "relationship": "methodin",
+      "line_no": 13,
+      "weight": 0.6,
+      "risk_score": 0.6
+    },
+    {
+      "source": 6,
+      "target": 5,
+      "relationship": "call",
+      "line_no": 14,
+      "weight": 0.8,
+      "risk_score": 0.8
+    },
+    {
+      "source": 7,
+      "target": 2,
+      "relationship": "import",
+      "line_no": 1,
+      "weight": 0.7,
+      "risk_score": 0.7
+    },
+    {
+      "source": 7,
+      "target": 8,
+      "relationship": "import",
+      "line_no": 2,
+      "weight": 0.7,
+      "risk_score": 0.7
+    },
+    {
+      "source": 7,
+      "target": 9,
+      "relationship": "import",
+      "line_no": 3,
+      "weight": 0.7,
+      "risk_score": 0.7
+    },
+    {
+      "source": 7,
+      "target": 10,
+      "relationship": "import",
+      "line_no": 4,
+      "weight": 0.7,
+      "risk_score": 0.7
+    },
+    {
+      "source": 7,
+      "target": 11,
+      "relationship": "variable",
+      "line_no": 6,
+      "weight": 0.5,
+      "risk_score": 0.5
+    },
+    {
+      "source": 7,
+      "target": 12,
+      "relationship": "call",
+      "line_no": 6,
+      "weight": 0.8,
+      "risk_score": 0.8
+    },
+    {
+      "source": 7,
+      "target": 13,
+      "relationship": "call",
+      "line_no": 8,
+      "weight": 0.8,
+      "risk_score": 0.8
+    },
+    {
+      "source": 7,
+      "target": 14,
+      "relationship": "call",
+      "line_no": 9,
+      "weight": 0.8,
+      "risk_score": 0.8
+    },
+    {
+      "source": 7,
+      "target": 15,
+      "relationship": "call",
+      "line_no": 11,
+      "weight": 0.8,
+      "risk_score": 0.8
+    },
+    {
+      "source": 16,
+      "target": 17,
+      "relationship": "import",
+      "line_no": 1,
+      "weight": 0.7,
+      "risk_score": 0.7
+    },
+    {
+      "source": 18,
+      "target": 19,
+      "relationship": "inheritance",
+      "line_no": 3,
+      "weight": 0.9,
+      "risk_score": 0.9
+    },
+    {
+      "source": 16,
+      "target": 18,
+      "relationship": "classin",
+      "line_no": 3,
+      "weight": 0.5,
+      "risk_score": 0.5
+    },
+    {
+      "source": 20,
+      "target": 19,
+      "relationship": "inheritance",
+      "line_no": 7,
+      "weight": 0.9,
+      "risk_score": 0.9
+    },
+    {
+      "source": 16,
+      "target": 20,
+      "relationship": "classin",
+      "line_no": 7,
+      "weight": 0.5,
+      "risk_score": 0.5
+    },
+    {
+      "source": 21,
+      "target": 2,
+      "relationship": "import",
+      "line_no": 1,
+      "weight": 0.7,
+      "risk_score": 0.7
+    },
+    {
+      "source": 21,
+      "target": 22,
+      "relationship": "import",
+      "line_no": 2,
+      "weight": 0.7,
+      "risk_score": 0.7
+    },
+    {
+      "source": 21,
+      "target": 23,
+      "relationship": "import",
+      "line_no": 3,
+      "weight": 0.7,
+      "risk_score": 0.7
+    },
+    {
+      "source": 21,
+      "target": 8,
+      "relationship": "import",
+      "line_no": 4,
+      "weight": 0.7,
+      "risk_score": 0.7
+    },
+    {
+      "source": 21,
+      "target": 24,
+      "relationship": "import",
+      "line_no": 5,
+      "weight": 0.7,
+      "risk_score": 0.7
+    },
+    {
+      "source": 21,
+      "target": 23,
+      "relationship": "import",
+      "line_no": 6,
+      "weight": 0.7,
+      "risk_score": 0.7
+    },
+    {
+      "source": 21,
+      "target": 25,
+      "relationship": "import",
+      "line_no": 7,
+      "weight": 0.7,
+      "risk_score": 0.7
+    },
+    {
+      "source": 21,
+      "target": 26,
+      "relationship": "variable",
+      "line_no": 9,
+      "weight": 0.5,
+      "risk_score": 0.5
+    },
+    {
+      "source": 21,
+      "target": 27,
+      "relationship": "call",
+      "line_no": 9,
+      "weight": 0.8,
+      "risk_score": 0.8
+    },
+    {
+      "source": 21,
+      "target": 28,
+      "relationship": "methodin",
+      "line_no": 11,
+      "weight": 0.6,
+      "risk_score": 0.6
+    },
+    {
+      "source": 28,
+      "target": 29,
+      "relationship": "call",
+      "line_no": 11,
+      "weight": 0.8,
+      "risk_score": 0.8
+    },
+    {
+      "source": 28,
+      "target": 30,
+      "relationship": "call",
+      "line_no": 12,
+      "weight": 0.8,
+      "risk_score": 0.8
+    },
+    {
+      "source": 21,
+      "target": 31,
+      "relationship": "methodin",
+      "line_no": 14,
+      "weight": 0.6,
+      "risk_score": 0.6
+    },
+    {
+      "source": 31,
+      "target": 29,
+      "relationship": "call",
+      "line_no": 14,
+      "weight": 0.8,
+      "risk_score": 0.8
+    },
+    {
+      "source": 31,
+      "target": 32,
+      "relationship": "call",
+      "line_no": 15,
+      "weight": 0.8,
+      "risk_score": 0.8
+    },
+    {
+      "source": 21,
+      "target": 33,
+      "relationship": "methodin",
+      "line_no": 17,
+      "weight": 0.6,
+      "risk_score": 0.6
+    },
+    {
+      "source": 33,
+      "target": 29,
+      "relationship": "call",
+      "line_no": 17,
+      "weight": 0.8,
+      "risk_score": 0.8
+    },
+    {
+      "source": 33,
+      "target": 34,
+      "relationship": "call",
+      "line_no": 18,
+      "weight": 0.8,
+      "risk_score": 0.8
+    },
+    {
+      "source": 21,
+      "target": 29,
+      "relationship": "call",
+      "line_no": 21,
+      "weight": 0.8,
+      "risk_score": 0.8
+    },
+    {
+      "source": 21,
+      "target": 35,
+      "relationship": "variable",
+      "line_no": 23,
+      "weight": 0.5,
+      "risk_score": 0.5
+    },
+    {
+      "source": 21,
+      "target": 36,
+      "relationship": "call",
+      "line_no": 23,
+      "weight": 0.8,
+      "risk_score": 0.8
+    },
+    {
+      "source": 21,
+      "target": 37,
+      "relationship": "call",
+      "line_no": 26,
+      "weight": 0.8,
+      "risk_score": 0.8
+    },
+    {
+      "source": 21,
+      "target": 38,
+      "relationship": "call",
+      "line_no": 26,
+      "weight": 0.8,
+      "risk_score": 0.8
+    },
+    {
+      "source": 21,
+      "target": 39,
+      "relationship": "call",
+      "line_no": 20,
+      "weight": 0.8,
+      "risk_score": 0.8
+    },
+    {
+      "source": 40,
+      "target": 17,
+      "relationship": "import",
+      "line_no": 1,
+      "weight": 0.7,
+      "risk_score": 0.7
+    },
+    {
+      "source": 41,
+      "target": 42,
+      "relationship": "inheritance",
+      "line_no": 3,
+      "weight": 0.9,
+      "risk_score": 0.9
+    },
+    {
+      "source": 40,
+      "target": 41,
+      "relationship": "classin",
+      "line_no": 3,
+      "weight": 0.5,
+      "risk_score": 0.5
+    },
+    {
+      "source": 40,
+      "target": 43,
+      "relationship": "classin",
+      "line_no": 9,
+      "weight": 0.5,
+      "risk_score": 0.5
+    },
+    {
+      "source": 40,
+      "target": 44,
+      "relationship": "variable",
+      "line_no": 10,
+      "weight": 0.5,
+      "risk_score": 0.5
+    },
+    {
+      "source": 45,
+      "target": 2,
+      "relationship": "import",
+      "line_no": 1,
+      "weight": 0.7,
+      "risk_score": 0.7
+    },
+    {
+      "source": 45,
+      "target": 46,
+      "relationship": "import",
+      "line_no": 2,
+      "weight": 0.7,
+      "risk_score": 0.7
+    },
+    {
+      "source": 45,
+      "target": 47,
+      "relationship": "import",
+      "line_no": 3,
+      "weight": 0.7,
+      "risk_score": 0.7
+    },
+    {
+      "source": 45,
+      "target": 48,
+      "relationship": "variable",
+      "line_no": 4,
+      "weight": 0.5,
+      "risk_score": 0.5
+    },
+    {
+      "source": 45,
+      "target": 49,
+      "relationship": "variable",
+      "line_no": 5,
+      "weight": 0.5,
+      "risk_score": 0.5
+    },
+    {
+      "source": 45,
+      "target": 50,
+      "relationship": "call",
+      "line_no": 5,
+      "weight": 0.8,
+      "risk_score": 0.8
+    },
+    {
+      "source": 45,
+      "target": 51,
+      "relationship": "variable",
+      "line_no": 7,
+      "weight": 0.5,
+      "risk_score": 0.5
+    },
+    {
+      "source": 45,
+      "target": 52,
+      "relationship": "variable",
+      "line_no": 8,
+      "weight": 0.5,
+      "risk_score": 0.5
+    },
+    {
+      "source": 45,
+      "target": 53,
+      "relationship": "methodin",
+      "line_no": 11,
+      "weight": 0.6,
+      "risk_score": 0.6
+    },
+    {
+      "source": 53,
+      "target": 54,
+      "relationship": "call",
+      "line_no": 12,
+      "weight": 0.8,
+      "risk_score": 0.8
+    },
+    {
+      "source": 45,
+      "target": 55,
+      "relationship": "methodin",
+      "line_no": 14,
+      "weight": 0.6,
+      "risk_score": 0.6
+    },
+    {
+      "source": 55,
+      "target": 56,
+      "relationship": "call",
+      "line_no": 15,
+      "weight": 0.8,
+      "risk_score": 0.8
+    },
+    {
+      "source": 45,
+      "target": 57,
+      "relationship": "methodin",
+      "line_no": 17,
+      "weight": 0.6,
+      "risk_score": 0.6
+    },
+    {
+      "source": 45,
+      "target": 58,
+      "relationship": "import",
+      "line_no": 18,
+      "weight": 0.7,
+      "risk_score": 0.7
+    },
+    {
+      "source": 57,
+      "target": 59,
+      "relationship": "variable",
+      "line_no": 19,
+      "weight": 0.5,
+      "risk_score": 0.5
+    },
+    {
+      "source": 57,
+      "target": 60,
+      "relationship": "call",
+      "line_no": 19,
+      "weight": 0.8,
+      "risk_score": 0.8
+    },
+    {
+      "source": 57,
+      "target": 61,
+      "relationship": "variable",
+      "line_no": 20,
+      "weight": 0.5,
+      "risk_score": 0.5
+    },
+    {
+      "source": 57,
+      "target": 62,
+      "relationship": "call",
+      "line_no": 20,
+      "weight": 0.8,
+      "risk_score": 0.8
+    },
+    {
+      "source": 57,
+      "target": 63,
+      "relationship": "call",
+      "line_no": 20,
+      "weight": 0.8,
+      "risk_score": 0.8
+    },
+    {
+      "source": 57,
+      "target": 64,
+      "relationship": "call",
+      "line_no": 21,
+      "weight": 0.8,
+      "risk_score": 0.8
+    },
+    {
+      "source": 57,
+      "target": 65,
+      "relationship": "variable",
+      "line_no": 22,
+      "weight": 0.5,
+      "risk_score": 0.5
+    },
+    {
+      "source": 57,
+      "target": 66,
+      "relationship": "call",
+      "line_no": 22,
+      "weight": 0.8,
+      "risk_score": 0.8
+    },
+    {
+      "source": 45,
+      "target": 67,
+      "relationship": "methodin",
+      "line_no": 25,
+      "weight": 0.6,
+      "risk_score": 0.6
+    },
+    {
+      "source": 45,
+      "target": 46,
+      "relationship": "import",
+      "line_no": 26,
+      "weight": 0.7,
+      "risk_score": 0.7
+    },
+    {
+      "source": 45,
+      "target": 2,
+      "relationship": "import",
+      "line_no": 27,
+      "weight": 0.7,
+      "risk_score": 0.7
+    },
+    {
+      "source": 45,
+      "target": 46,
+      "relationship": "import",
+      "line_no": 28,
+      "weight": 0.7,
+      "risk_score": 0.7
+    },
+    {
+      "source": 67,
+      "target": 68,
+      "relationship": "variable",
+      "line_no": 30,
+      "weight": 0.5,
+      "risk_score": 0.5
+    },
+    {
+      "source": 67,
+      "target": 69,
+      "relationship": "call",
+      "line_no": 30,
+      "weight": 0.8,
+      "risk_score": 0.8
+    },
+    {
+      "source": 67,
+      "target": 70,
+      "relationship": "call",
+      "line_no": 31,
+      "weight": 0.8,
+      "risk_score": 0.8
+    },
+    {
+      "source": 67,
+      "target": 37,
+      "relationship": "call",
+      "line_no": 33,
+      "weight": 0.8,
+      "risk_score": 0.8
+    },
+    {
+      "source": 67,
+      "target": 37,
+      "relationship": "call",
+      "line_no": 36,
+      "weight": 0.8,
+      "risk_score": 0.8
+    },
+    {
+      "source": 71,
+      "target": 2,
+      "relationship": "import",
+      "line_no": 1,
+      "weight": 0.7,
+      "risk_score": 0.7
+    },
+    {
+      "source": 71,
+      "target": 72,
+      "relationship": "import",
+      "line_no": 2,
+      "weight": 0.7,
+      "risk_score": 0.7
+    },
+    {
+      "source": 71,
+      "target": 73,
+      "relationship": "variable",
+      "line_no": 4,
+      "weight": 0.5,
+      "risk_score": 0.5
+    },
+    {
+      "source": 71,
+      "target": 27,
+      "relationship": "call",
+      "line_no": 4,
+      "weight": 0.8,
+      "risk_score": 0.8
+    },
+    {
+      "source": 71,
+      "target": 15,
+      "relationship": "call",
+      "line_no": 5,
+      "weight": 0.8,
+      "risk_score": 0.8
+    },
+    {
+      "source": 74,
+      "target": 24,
+      "relationship": "import",
+      "line_no": 1,
+      "weight": 0.7,
+      "risk_score": 0.7
+    },
+    {
+      "source": 74,
+      "target": 75,
+      "relationship": "classin",
+      "line_no": 3,
+      "weight": 0.5,
+      "risk_score": 0.5
+    },
+    {
+      "source": 75,
+      "target": 76,
+      "relationship": "methodin",
+      "line_no": 4,
+      "weight": 0.6,
+      "risk_score": 0.6
+    },
+    {
+      "source": 75,
+      "target": 77,
+      "relationship": "methodin",
+      "line_no": 7,
+      "weight": 0.6,
+      "risk_score": 0.6
+    },
+    {
+      "source": 77,
+      "target": 78,
+      "relationship": "variable",
+      "line_no": 8,
+      "weight": 0.5,
+      "risk_score": 0.5
+    },
+    {
+      "source": 77,
+      "target": 79,
+      "relationship": "call",
+      "line_no": 8,
+      "weight": 0.8,
+      "risk_score": 0.8
+    },
+    {
+      "source": 80,
+      "target": 25,
+      "relationship": "import",
+      "line_no": 1,
+      "weight": 0.7,
+      "risk_score": 0.7
+    },
+    {
+      "source": 80,
+      "target": 23,
+      "relationship": "import",
+      "line_no": 2,
+      "weight": 0.7,
+      "risk_score": 0.7
+    },
+    {
+      "source": 80,
+      "target": 81,
+      "relationship": "classin",
+      "line_no": 4,
+      "weight": 0.5,
+      "risk_score": 0.5
+    },
+    {
+      "source": 81,
+      "target": 82,
+      "relationship": "methodin",
+      "line_no": 5,
+      "weight": 0.6,
+      "risk_score": 0.6
+    },
+    {
+      "source": 81,
+      "target": 83,
+      "relationship": "methodin",
+      "line_no": 8,
+      "weight": 0.6,
+      "risk_score": 0.6
+    },
+    {
+      "source": 83,
+      "target": 84,
+      "relationship": "call",
+      "line_no": 9,
+      "weight": 0.8,
+      "risk_score": 0.8
+    },
+    {
+      "source": 85,
+      "target": 86,
+      "relationship": "import",
+      "line_no": 1,
+      "weight": 0.7,
+      "risk_score": 0.7
+    },
+    {
+      "source": 85,
+      "target": 86,
+      "relationship": "import",
+      "line_no": 2,
+      "weight": 0.7,
+      "risk_score": 0.7
+    },
+    {
+      "source": 85,
+      "target": 86,
+      "relationship": "import",
+      "line_no": 3,
+      "weight": 0.7,
+      "risk_score": 0.7
+    },
+    {
+      "source": 85,
+      "target": 8,
+      "relationship": "import",
+      "line_no": 4,
+      "weight": 0.7,
+      "risk_score": 0.7
+    },
+    {
+      "source": 85,
+      "target": 87,
+      "relationship": "variable",
+      "line_no": 6,
+      "weight": 0.5,
+      "risk_score": 0.5
+    },
+    {
+      "source": 85,
+      "target": 88,
+      "relationship": "call",
+      "line_no": 6,
+      "weight": 0.8,
+      "risk_score": 0.8
+    },
+    {
+      "source": 85,
+      "target": 89,
+      "relationship": "variable",
+      "line_no": 8,
+      "weight": 0.5,
+      "risk_score": 0.5
+    },
+    {
+      "source": 85,
+      "target": 90,
+      "relationship": "call",
+      "line_no": 8,
+      "weight": 0.8,
+      "risk_score": 0.8
+    },
+    {
+      "source": 85,
+      "target": 91,
+      "relationship": "variable",
+      "line_no": 9,
+      "weight": 0.5,
+      "risk_score": 0.5
+    },
+    {
+      "source": 85,
+      "target": 92,
+      "relationship": "call",
+      "line_no": 9,
+      "weight": 0.8,
+      "risk_score": 0.8
+    },
+    {
+      "source": 85,
+      "target": 93,
+      "relationship": "variable",
+      "line_no": 10,
+      "weight": 0.5,
+      "risk_score": 0.5
+    },
+    {
+      "source": 85,
+      "target": 94,
+      "relationship": "call",
+      "line_no": 10,
+      "weight": 0.8,
+      "risk_score": 0.8
+    },
+    {
+      "source": 85,
+      "target": 95,
+      "relationship": "methodin",
+      "line_no": 12,
+      "weight": 0.6,
+      "risk_score": 0.6
+    },
+    {
+      "source": 95,
+      "target": 96,
+      "relationship": "variable",
+      "line_no": 13,
+      "weight": 0.5,
+      "risk_score": 0.5
+    },
+    {
+      "source": 95,
+      "target": 97,
+      "relationship": "call",
+      "line_no": 13,
+      "weight": 0.8,
+      "risk_score": 0.8
+    },
+    {
+      "source": 95,
+      "target": 98,
+      "relationship": "call",
+      "line_no": 17,
+      "weight": 0.8,
+      "risk_score": 0.8
+    },
+    {
+      "source": 99,
+      "target": 86,
+      "relationship": "import",
+      "line_no": 1,
+      "weight": 0.7,
+      "risk_score": 0.7
+    },
+    {
+      "source": 99,
+      "target": 86,
+      "relationship": "import",
+      "line_no": 2,
+      "weight": 0.7,
+      "risk_score": 0.7
+    },
+    {
+      "source": 99,
+      "target": 8,
+      "relationship": "import",
+      "line_no": 3,
+      "weight": 0.7,
+      "risk_score": 0.7
+    },
+    {
+      "source": 100,
+      "target": 101,
+      "relationship": "inheritance",
+      "line_no": 5,
+      "weight": 0.9,
+      "risk_score": 0.9
+    },
+    {
+      "source": 99,
+      "target": 100,
+      "relationship": "classin",
+      "line_no": 5,
+      "weight": 0.5,
+      "risk_score": 0.5
+    },
+    {
+      "source": 99,
+      "target": 102,
+      "relationship": "variable",
+      "line_no": 6,
+      "weight": 0.5,
+      "risk_score": 0.5
+    },
+    {
+      "source": 99,
+      "target": 103,
+      "relationship": "variable",
+      "line_no": 7,
+      "weight": 0.5,
+      "risk_score": 0.5
+    },
+    {
+      "source": 99,
+      "target": 104,
+      "relationship": "call",
+      "line_no": 7,
+      "weight": 0.8,
+      "risk_score": 0.8
+    },
+    {
+      "source": 99,
+      "target": 105,
+      "relationship": "variable",
+      "line_no": 8,
+      "weight": 0.5,
+      "risk_score": 0.5
+    },
+    {
+      "source": 99,
+      "target": 104,
+      "relationship": "call",
+      "line_no": 8,
+      "weight": 0.8,
+      "risk_score": 0.8
+    },
+    {
+      "source": 99,
+      "target": 106,
+      "relationship": "variable",
+      "line_no": 9,
+      "weight": 0.5,
+      "risk_score": 0.5
+    },
+    {
+      "source": 99,
+      "target": 104,
+      "relationship": "call",
+      "line_no": 9,
+      "weight": 0.8,
+      "risk_score": 0.8
+    },
+    {
+      "source": 107,
+      "target": 86,
+      "relationship": "import",
+      "line_no": 1,
+      "weight": 0.7,
+      "risk_score": 0.7
+    },
+    {
+      "source": 107,
+      "target": 22,
+      "relationship": "import",
+      "line_no": 2,
+      "weight": 0.7,
+      "risk_score": 0.7
+    },
+    {
+      "source": 107,
+      "target": 25,
+      "relationship": "import",
+      "line_no": 3,
+      "weight": 0.7,
+      "risk_score": 0.7
+    },
+    {
+      "source": 107,
+      "target": 108,
+      "relationship": "classin",
+      "line_no": 5,
+      "weight": 0.5,
+      "risk_score": 0.5
+    },
+    {
+      "source": 108,
+      "target": 109,
+      "relationship": "methodin",
+      "line_no": 6,
+      "weight": 0.6,
+      "risk_score": 0.6
+    },
+    {
+      "source": 108,
+      "target": 110,
+      "relationship": "methodin",
+      "line_no": 9,
+      "weight": 0.6,
+      "risk_score": 0.6
+    },
+    {
+      "source": 110,
+      "target": 111,
+      "relationship": "variable",
+      "line_no": 10,
+      "weight": 0.5,
+      "risk_score": 0.5
+    },
+    {
+      "source": 110,
+      "target": 112,
+      "relationship": "call",
+      "line_no": 10,
+      "weight": 0.8,
+      "risk_score": 0.8
+    },
+    {
+      "source": 110,
+      "target": 113,
+      "relationship": "variable",
+      "line_no": 11,
+      "weight": 0.5,
+      "risk_score": 0.5
+    },
+    {
+      "source": 110,
+      "target": 114,
+      "relationship": "call",
+      "line_no": 11,
+      "weight": 0.8,
+      "risk_score": 0.8
+    },
+    {
+      "source": 110,
+      "target": 115,
+      "relationship": "call",
+      "line_no": 12,
+      "weight": 0.8,
+      "risk_score": 0.8
+    },
+    {
+      "source": 110,
+      "target": 116,
+      "relationship": "call",
+      "line_no": 13,
+      "weight": 0.8,
+      "risk_score": 0.8
+    },
+    {
+      "source": 110,
+      "target": 117,
+      "relationship": "call",
+      "line_no": 14,
+      "weight": 0.8,
+      "risk_score": 0.8
+    }
+  ],
+  "recursive_dependencies": {
+    "1": {
+      "node": 1,
+      "dependencies": [
+        {
+          "source": 1,
+          "target": 2,
+          "relationship": "import",
+          "depth": 1,
+          "risk_score": 0.7,
+          "line_no": 1
+        },
+        {
+          "source": 1,
+          "target": 2,
+          "relationship": "import",
+          "depth": 1,
+          "risk_score": 0.7,
+          "line_no": 2
+        },
+        {
+          "source": 1,
+          "target": 3,
+          "relationship": "methodin",
+          "depth": 1,
+          "risk_score": 0.6,
+          "line_no": 4
+        },
+        {
+          "source": 1,
+          "target": 6,
+          "relationship": "methodin",
+          "depth": 1,
+          "risk_score": 0.6,
+          "line_no": 13
+        },
+        {
+          "source": 3,
+          "target": 4,
+          "relationship": "call",
+          "depth": 2,
+          "risk_score": 0.8,
+          "line_no": 7
+        },
+        {
+          "source": 3,
+          "target": 5,
+          "relationship": "call",
+          "depth": 2,
+          "risk_score": 0.8,
+          "line_no": 5
+        },
+        {
+          "source": 3,
+          "target": 4,
+          "relationship": "call",
+          "depth": 2,
+          "risk_score": 0.8,
+          "line_no": 11
+        },
+        {
+          "source": 3,
+          "target": 5,
+          "relationship": "call",
+          "depth": 2,
+          "risk_score": 0.8,
+          "line_no": 9
+        },
+        {
+          "source": 6,
+          "target": 5,
+          "relationship": "call",
+          "depth": 2,
+          "risk_score": 0.8,
+          "line_no": 14
+        }
+      ]
+    },
+    "2": {
+      "node": 2,
+      "dependencies": []
+    },
+    "3": {
+      "node": 3,
+      "dependencies": [
+        {
+          "source": 3,
+          "target": 4,
+          "relationship": "call",
+          "depth": 1,
+          "risk_score": 0.8,
+          "line_no": 7
+        },
+        {
+          "source": 3,
+          "target": 5,
+          "relationship": "call",
+          "depth": 1,
+          "risk_score": 0.8,
+          "line_no": 5
+        },
+        {
+          "source": 3,
+          "target": 4,
+          "relationship": "call",
+          "depth": 1,
+          "risk_score": 0.8,
+          "line_no": 11
+        },
+        {
+          "source": 3,
+          "target": 5,
+          "relationship": "call",
+          "depth": 1,
+          "risk_score": 0.8,
+          "line_no": 9
+        }
+      ]
+    },
+    "4": {
+      "node": 4,
+      "dependencies": []
+    },
+    "5": {
+      "node": 5,
+      "dependencies": []
+    },
+    "6": {
+      "node": 6,
+      "dependencies": [
+        {
+          "source": 6,
+          "target": 5,
+          "relationship": "call",
+          "depth": 1,
+          "risk_score": 0.8,
+          "line_no": 14
+        }
+      ]
+    },
+    "7": {
+      "node": 7,
+      "dependencies": [
+        {
+          "source": 7,
+          "target": 2,
+          "relationship": "import",
+          "depth": 1,
+          "risk_score": 0.7,
+          "line_no": 1
+        },
+        {
+          "source": 7,
+          "target": 8,
+          "relationship": "import",
+          "depth": 1,
+          "risk_score": 0.7,
+          "line_no": 2
+        },
+        {
+          "source": 7,
+          "target": 9,
+          "relationship": "import",
+          "depth": 1,
+          "risk_score": 0.7,
+          "line_no": 3
+        },
+        {
+          "source": 7,
+          "target": 10,
+          "relationship": "import",
+          "depth": 1,
+          "risk_score": 0.7,
+          "line_no": 4
+        },
+        {
+          "source": 7,
+          "target": 11,
+          "relationship": "variable",
+          "depth": 1,
+          "risk_score": 0.5,
+          "line_no": 6
+        },
+        {
+          "source": 7,
+          "target": 12,
+          "relationship": "call",
+          "depth": 1,
+          "risk_score": 0.8,
+          "line_no": 6
+        },
+        {
+          "source": 7,
+          "target": 13,
+          "relationship": "call",
+          "depth": 1,
+          "risk_score": 0.8,
+          "line_no": 8
+        },
+        {
+          "source": 7,
+          "target": 14,
+          "relationship": "call",
+          "depth": 1,
+          "risk_score": 0.8,
+          "line_no": 9
+        },
+        {
+          "source": 7,
+          "target": 15,
+          "relationship": "call",
+          "depth": 1,
+          "risk_score": 0.8,
+          "line_no": 11
+        }
+      ]
+    },
+    "8": {
+      "node": 8,
+      "dependencies": []
+    },
+    "9": {
+      "node": 9,
+      "dependencies": []
+    },
+    "10": {
+      "node": 10,
+      "dependencies": []
+    },
+    "11": {
+      "node": 11,
+      "dependencies": []
+    },
+    "12": {
+      "node": 12,
+      "dependencies": []
+    },
+    "13": {
+      "node": 13,
+      "dependencies": []
+    },
+    "14": {
+      "node": 14,
+      "dependencies": []
+    },
+    "15": {
+      "node": 15,
+      "dependencies": []
+    },
+    "16": {
+      "node": 16,
+      "dependencies": [
+        {
+          "source": 16,
+          "target": 17,
+          "relationship": "import",
+          "depth": 1,
+          "risk_score": 0.7,
+          "line_no": 1
+        },
+        {
+          "source": 16,
+          "target": 18,
+          "relationship": "classin",
+          "depth": 1,
+          "risk_score": 0.5,
+          "line_no": 3
+        },
+        {
+          "source": 16,
+          "target": 20,
+          "relationship": "classin",
+          "depth": 1,
+          "risk_score": 0.5,
+          "line_no": 7
+        },
+        {
+          "source": 18,
+          "target": 19,
+          "relationship": "inheritance",
+          "depth": 2,
+          "risk_score": 0.9,
+          "line_no": 3
+        },
+        {
+          "source": 20,
+          "target": 19,
+          "relationship": "inheritance",
+          "depth": 2,
+          "risk_score": 0.9,
+          "line_no": 7
+        }
+      ]
+    },
+    "17": {
+      "node": 17,
+      "dependencies": []
+    },
+    "18": {
+      "node": 18,
+      "dependencies": [
+        {
+          "source": 18,
+          "target": 19,
+          "relationship": "inheritance",
+          "depth": 1,
+          "risk_score": 0.9,
+          "line_no": 3
+        }
+      ]
+    },
+    "19": {
+      "node": 19,
+      "dependencies": []
+    },
+    "20": {
+      "node": 20,
+      "dependencies": [
+        {
+          "source": 20,
+          "target": 19,
+          "relationship": "inheritance",
+          "depth": 1,
+          "risk_score": 0.9,
+          "line_no": 7
+        }
+      ]
+    },
+    "21": {
+      "node": 21,
+      "dependencies": [
+        {
+          "source": 21,
+          "target": 2,
+          "relationship": "import",
+          "depth": 1,
+          "risk_score": 0.7,
+          "line_no": 1
+        },
+        {
+          "source": 21,
+          "target": 22,
+          "relationship": "import",
+          "depth": 1,
+          "risk_score": 0.7,
+          "line_no": 2
+        },
+        {
+          "source": 21,
+          "target": 23,
+          "relationship": "import",
+          "depth": 1,
+          "risk_score": 0.7,
+          "line_no": 3
+        },
+        {
+          "source": 21,
+          "target": 8,
+          "relationship": "import",
+          "depth": 1,
+          "risk_score": 0.7,
+          "line_no": 4
+        },
+        {
+          "source": 21,
+          "target": 24,
+          "relationship": "import",
+          "depth": 1,
+          "risk_score": 0.7,
+          "line_no": 5
+        },
+        {
+          "source": 21,
+          "target": 23,
+          "relationship": "import",
+          "depth": 1,
+          "risk_score": 0.7,
+          "line_no": 6
+        },
+        {
+          "source": 21,
+          "target": 25,
+          "relationship": "import",
+          "depth": 1,
+          "risk_score": 0.7,
+          "line_no": 7
+        },
+        {
+          "source": 21,
+          "target": 26,
+          "relationship": "variable",
+          "depth": 1,
+          "risk_score": 0.5,
+          "line_no": 9
+        },
+        {
+          "source": 21,
+          "target": 27,
+          "relationship": "call",
+          "depth": 1,
+          "risk_score": 0.8,
+          "line_no": 9
+        },
+        {
+          "source": 21,
+          "target": 28,
+          "relationship": "methodin",
+          "depth": 1,
+          "risk_score": 0.6,
+          "line_no": 11
+        },
+        {
+          "source": 21,
+          "target": 31,
+          "relationship": "methodin",
+          "depth": 1,
+          "risk_score": 0.6,
+          "line_no": 14
+        },
+        {
+          "source": 21,
+          "target": 33,
+          "relationship": "methodin",
+          "depth": 1,
+          "risk_score": 0.6,
+          "line_no": 17
+        },
+        {
+          "source": 21,
+          "target": 29,
+          "relationship": "call",
+          "depth": 1,
+          "risk_score": 0.8,
+          "line_no": 21
+        },
+        {
+          "source": 21,
+          "target": 35,
+          "relationship": "variable",
+          "depth": 1,
+          "risk_score": 0.5,
+          "line_no": 23
+        },
+        {
+          "source": 21,
+          "target": 36,
+          "relationship": "call",
+          "depth": 1,
+          "risk_score": 0.8,
+          "line_no": 23
+        },
+        {
+          "source": 21,
+          "target": 37,
+          "relationship": "call",
+          "depth": 1,
+          "risk_score": 0.8,
+          "line_no": 26
+        },
+        {
+          "source": 21,
+          "target": 38,
+          "relationship": "call",
+          "depth": 1,
+          "risk_score": 0.8,
+          "line_no": 26
+        },
+        {
+          "source": 21,
+          "target": 39,
+          "relationship": "call",
+          "depth": 1,
+          "risk_score": 0.8,
+          "line_no": 20
+        },
+        {
+          "source": 28,
+          "target": 29,
+          "relationship": "call",
+          "depth": 2,
+          "risk_score": 0.8,
+          "line_no": 11
+        },
+        {
+          "source": 28,
+          "target": 30,
+          "relationship": "call",
+          "depth": 2,
+          "risk_score": 0.8,
+          "line_no": 12
+        },
+        {
+          "source": 31,
+          "target": 29,
+          "relationship": "call",
+          "depth": 2,
+          "risk_score": 0.8,
+          "line_no": 14
+        },
+        {
+          "source": 31,
+          "target": 32,
+          "relationship": "call",
+          "depth": 2,
+          "risk_score": 0.8,
+          "line_no": 15
+        },
+        {
+          "source": 33,
+          "target": 29,
+          "relationship": "call",
+          "depth": 2,
+          "risk_score": 0.8,
+          "line_no": 17
+        },
+        {
+          "source": 33,
+          "target": 34,
+          "relationship": "call",
+          "depth": 2,
+          "risk_score": 0.8,
+          "line_no": 18
+        }
+      ]
+    },
+    "22": {
+      "node": 22,
+      "dependencies": []
+    },
+    "23": {
+      "node": 23,
+      "dependencies": []
+    },
+    "24": {
+      "node": 24,
+      "dependencies": []
+    },
+    "25": {
+      "node": 25,
+      "dependencies": []
+    },
+    "26": {
+      "node": 26,
+      "dependencies": []
+    },
+    "27": {
+      "node": 27,
+      "dependencies": []
+    },
+    "28": {
+      "node": 28,
+      "dependencies": [
+        {
+          "source": 28,
+          "target": 29,
+          "relationship": "call",
+          "depth": 1,
+          "risk_score": 0.8,
+          "line_no": 11
+        },
+        {
+          "source": 28,
+          "target": 30,
+          "relationship": "call",
+          "depth": 1,
+          "risk_score": 0.8,
+          "line_no": 12
+        }
+      ]
+    },
+    "29": {
+      "node": 29,
+      "dependencies": []
+    },
+    "30": {
+      "node": 30,
+      "dependencies": []
+    },
+    "31": {
+      "node": 31,
+      "dependencies": [
+        {
+          "source": 31,
+          "target": 29,
+          "relationship": "call",
+          "depth": 1,
+          "risk_score": 0.8,
+          "line_no": 14
+        },
+        {
+          "source": 31,
+          "target": 32,
+          "relationship": "call",
+          "depth": 1,
+          "risk_score": 0.8,
+          "line_no": 15
+        }
+      ]
+    },
+    "32": {
+      "node": 32,
+      "dependencies": []
+    },
+    "33": {
+      "node": 33,
+      "dependencies": [
+        {
+          "source": 33,
+          "target": 29,
+          "relationship": "call",
+          "depth": 1,
+          "risk_score": 0.8,
+          "line_no": 17
+        },
+        {
+          "source": 33,
+          "target": 34,
+          "relationship": "call",
+          "depth": 1,
+          "risk_score": 0.8,
+          "line_no": 18
+        }
+      ]
+    },
+    "34": {
+      "node": 34,
+      "dependencies": []
+    },
+    "35": {
+      "node": 35,
+      "dependencies": []
+    },
+    "36": {
+      "node": 36,
+      "dependencies": []
+    },
+    "37": {
+      "node": 37,
+      "dependencies": []
+    },
+    "38": {
+      "node": 38,
+      "dependencies": []
+    },
+    "39": {
+      "node": 39,
+      "dependencies": []
+    },
+    "40": {
+      "node": 40,
+      "dependencies": [
+        {
+          "source": 40,
+          "target": 17,
+          "relationship": "import",
+          "depth": 1,
+          "risk_score": 0.7,
+          "line_no": 1
+        },
+        {
+          "source": 40,
+          "target": 41,
+          "relationship": "classin",
+          "depth": 1,
+          "risk_score": 0.5,
+          "line_no": 3
+        },
+        {
+          "source": 40,
+          "target": 43,
+          "relationship": "classin",
+          "depth": 1,
+          "risk_score": 0.5,
+          "line_no": 9
+        },
+        {
+          "source": 40,
+          "target": 44,
+          "relationship": "variable",
+          "depth": 1,
+          "risk_score": 0.5,
+          "line_no": 10
+        },
+        {
+          "source": 41,
+          "target": 42,
+          "relationship": "inheritance",
+          "depth": 2,
+          "risk_score": 0.9,
+          "line_no": 3
+        }
+      ]
+    },
+    "41": {
+      "node": 41,
+      "dependencies": [
+        {
+          "source": 41,
+          "target": 42,
+          "relationship": "inheritance",
+          "depth": 1,
+          "risk_score": 0.9,
+          "line_no": 3
+        }
+      ]
+    },
+    "42": {
+      "node": 42,
+      "dependencies": []
+    },
+    "43": {
+      "node": 43,
+      "dependencies": []
+    },
+    "44": {
+      "node": 44,
+      "dependencies": []
+    },
+    "45": {
+      "node": 45,
+      "dependencies": [
+        {
+          "source": 45,
+          "target": 2,
+          "relationship": "import",
+          "depth": 1,
+          "risk_score": 0.7,
+          "line_no": 1
+        },
+        {
+          "source": 45,
+          "target": 46,
+          "relationship": "import",
+          "depth": 1,
+          "risk_score": 0.7,
+          "line_no": 2
+        },
+        {
+          "source": 45,
+          "target": 47,
+          "relationship": "import",
+          "depth": 1,
+          "risk_score": 0.7,
+          "line_no": 3
+        },
+        {
+          "source": 45,
+          "target": 48,
+          "relationship": "variable",
+          "depth": 1,
+          "risk_score": 0.5,
+          "line_no": 4
+        },
+        {
+          "source": 45,
+          "target": 49,
+          "relationship": "variable",
+          "depth": 1,
+          "risk_score": 0.5,
+          "line_no": 5
+        },
+        {
+          "source": 45,
+          "target": 50,
+          "relationship": "call",
+          "depth": 1,
+          "risk_score": 0.8,
+          "line_no": 5
+        },
+        {
+          "source": 45,
+          "target": 51,
+          "relationship": "variable",
+          "depth": 1,
+          "risk_score": 0.5,
+          "line_no": 7
+        },
+        {
+          "source": 45,
+          "target": 52,
+          "relationship": "variable",
+          "depth": 1,
+          "risk_score": 0.5,
+          "line_no": 8
+        },
+        {
+          "source": 45,
+          "target": 53,
+          "relationship": "methodin",
+          "depth": 1,
+          "risk_score": 0.6,
+          "line_no": 11
+        },
+        {
+          "source": 45,
+          "target": 55,
+          "relationship": "methodin",
+          "depth": 1,
+          "risk_score": 0.6,
+          "line_no": 14
+        },
+        {
+          "source": 45,
+          "target": 57,
+          "relationship": "methodin",
+          "depth": 1,
+          "risk_score": 0.6,
+          "line_no": 17
+        },
+        {
+          "source": 45,
+          "target": 58,
+          "relationship": "import",
+          "depth": 1,
+          "risk_score": 0.7,
+          "line_no": 18
+        },
+        {
+          "source": 45,
+          "target": 67,
+          "relationship": "methodin",
+          "depth": 1,
+          "risk_score": 0.6,
+          "line_no": 25
+        },
+        {
+          "source": 45,
+          "target": 46,
+          "relationship": "import",
+          "depth": 1,
+          "risk_score": 0.7,
+          "line_no": 26
+        },
+        {
+          "source": 45,
+          "target": 2,
+          "relationship": "import",
+          "depth": 1,
+          "risk_score": 0.7,
+          "line_no": 27
+        },
+        {
+          "source": 45,
+          "target": 46,
+          "relationship": "import",
+          "depth": 1,
+          "risk_score": 0.7,
+          "line_no": 28
+        },
+        {
+          "source": 53,
+          "target": 54,
+          "relationship": "call",
+          "depth": 2,
+          "risk_score": 0.8,
+          "line_no": 12
+        },
+        {
+          "source": 55,
+          "target": 56,
+          "relationship": "call",
+          "depth": 2,
+          "risk_score": 0.8,
+          "line_no": 15
+        },
+        {
+          "source": 57,
+          "target": 59,
+          "relationship": "variable",
+          "depth": 2,
+          "risk_score": 0.5,
+          "line_no": 19
+        },
+        {
+          "source": 57,
+          "target": 60,
+          "relationship": "call",
+          "depth": 2,
+          "risk_score": 0.8,
+          "line_no": 19
+        },
+        {
+          "source": 57,
+          "target": 61,
+          "relationship": "variable",
+          "depth": 2,
+          "risk_score": 0.5,
+          "line_no": 20
+        },
+        {
+          "source": 57,
+          "target": 62,
+          "relationship": "call",
+          "depth": 2,
+          "risk_score": 0.8,
+          "line_no": 20
+        },
+        {
+          "source": 57,
+          "target": 63,
+          "relationship": "call",
+          "depth": 2,
+          "risk_score": 0.8,
+          "line_no": 20
+        },
+        {
+          "source": 57,
+          "target": 64,
+          "relationship": "call",
+          "depth": 2,
+          "risk_score": 0.8,
+          "line_no": 21
+        },
+        {
+          "source": 57,
+          "target": 65,
+          "relationship": "variable",
+          "depth": 2,
+          "risk_score": 0.5,
+          "line_no": 22
+        },
+        {
+          "source": 57,
+          "target": 66,
+          "relationship": "call",
+          "depth": 2,
+          "risk_score": 0.8,
+          "line_no": 22
+        },
+        {
+          "source": 67,
+          "target": 68,
+          "relationship": "variable",
+          "depth": 2,
+          "risk_score": 0.5,
+          "line_no": 30
+        },
+        {
+          "source": 67,
+          "target": 69,
+          "relationship": "call",
+          "depth": 2,
+          "risk_score": 0.8,
+          "line_no": 30
+        },
+        {
+          "source": 67,
+          "target": 70,
+          "relationship": "call",
+          "depth": 2,
+          "risk_score": 0.8,
+          "line_no": 31
+        },
+        {
+          "source": 67,
+          "target": 37,
+          "relationship": "call",
+          "depth": 2,
+          "risk_score": 0.8,
+          "line_no": 33
+        },
+        {
+          "source": 67,
+          "target": 37,
+          "relationship": "call",
+          "depth": 2,
+          "risk_score": 0.8,
+          "line_no": 36
+        }
+      ]
+    },
+    "46": {
+      "node": 46,
+      "dependencies": []
+    },
+    "47": {
+      "node": 47,
+      "dependencies": []
+    },
+    "48": {
+      "node": 48,
+      "dependencies": []
+    },
+    "49": {
+      "node": 49,
+      "dependencies": []
+    },
+    "50": {
+      "node": 50,
+      "dependencies": []
+    },
+    "51": {
+      "node": 51,
+      "dependencies": []
+    },
+    "52": {
+      "node": 52,
+      "dependencies": []
+    },
+    "53": {
+      "node": 53,
+      "dependencies": [
+        {
+          "source": 53,
+          "target": 54,
+          "relationship": "call",
+          "depth": 1,
+          "risk_score": 0.8,
+          "line_no": 12
+        }
+      ]
+    },
+    "54": {
+      "node": 54,
+      "dependencies": []
+    },
+    "55": {
+      "node": 55,
+      "dependencies": [
+        {
+          "source": 55,
+          "target": 56,
+          "relationship": "call",
+          "depth": 1,
+          "risk_score": 0.8,
+          "line_no": 15
+        }
+      ]
+    },
+    "56": {
+      "node": 56,
+      "dependencies": []
+    },
+    "57": {
+      "node": 57,
+      "dependencies": [
+        {
+          "source": 57,
+          "target": 59,
+          "relationship": "variable",
+          "depth": 1,
+          "risk_score": 0.5,
+          "line_no": 19
+        },
+        {
+          "source": 57,
+          "target": 60,
+          "relationship": "call",
+          "depth": 1,
+          "risk_score": 0.8,
+          "line_no": 19
+        },
+        {
+          "source": 57,
+          "target": 61,
+          "relationship": "variable",
+          "depth": 1,
+          "risk_score": 0.5,
+          "line_no": 20
+        },
+        {
+          "source": 57,
+          "target": 62,
+          "relationship": "call",
+          "depth": 1,
+          "risk_score": 0.8,
+          "line_no": 20
+        },
+        {
+          "source": 57,
+          "target": 63,
+          "relationship": "call",
+          "depth": 1,
+          "risk_score": 0.8,
+          "line_no": 20
+        },
+        {
+          "source": 57,
+          "target": 64,
+          "relationship": "call",
+          "depth": 1,
+          "risk_score": 0.8,
+          "line_no": 21
+        },
+        {
+          "source": 57,
+          "target": 65,
+          "relationship": "variable",
+          "depth": 1,
+          "risk_score": 0.5,
+          "line_no": 22
+        },
+        {
+          "source": 57,
+          "target": 66,
+          "relationship": "call",
+          "depth": 1,
+          "risk_score": 0.8,
+          "line_no": 22
+        }
+      ]
+    },
+    "58": {
+      "node": 58,
+      "dependencies": []
+    },
+    "59": {
+      "node": 59,
+      "dependencies": []
+    },
+    "60": {
+      "node": 60,
+      "dependencies": []
+    },
+    "61": {
+      "node": 61,
+      "dependencies": []
+    },
+    "62": {
+      "node": 62,
+      "dependencies": []
+    },
+    "63": {
+      "node": 63,
+      "dependencies": []
+    },
+    "64": {
+      "node": 64,
+      "dependencies": []
+    },
+    "65": {
+      "node": 65,
+      "dependencies": []
+    },
+    "66": {
+      "node": 66,
+      "dependencies": []
+    },
+    "67": {
+      "node": 67,
+      "dependencies": [
+        {
+          "source": 67,
+          "target": 68,
+          "relationship": "variable",
+          "depth": 1,
+          "risk_score": 0.5,
+          "line_no": 30
+        },
+        {
+          "source": 67,
+          "target": 69,
+          "relationship": "call",
+          "depth": 1,
+          "risk_score": 0.8,
+          "line_no": 30
+        },
+        {
+          "source": 67,
+          "target": 70,
+          "relationship": "call",
+          "depth": 1,
+          "risk_score": 0.8,
+          "line_no": 31
+        },
+        {
+          "source": 67,
+          "target": 37,
+          "relationship": "call",
+          "depth": 1,
+          "risk_score": 0.8,
+          "line_no": 33
+        },
+        {
+          "source": 67,
+          "target": 37,
+          "relationship": "call",
+          "depth": 1,
+          "risk_score": 0.8,
+          "line_no": 36
+        }
+      ]
+    },
+    "68": {
+      "node": 68,
+      "dependencies": []
+    },
+    "69": {
+      "node": 69,
+      "dependencies": []
+    },
+    "70": {
+      "node": 70,
+      "dependencies": []
+    },
+    "71": {
+      "node": 71,
+      "dependencies": [
+        {
+          "source": 71,
+          "target": 2,
+          "relationship": "import",
+          "depth": 1,
+          "risk_score": 0.7,
+          "line_no": 1
+        },
+        {
+          "source": 71,
+          "target": 72,
+          "relationship": "import",
+          "depth": 1,
+          "risk_score": 0.7,
+          "line_no": 2
+        },
+        {
+          "source": 71,
+          "target": 73,
+          "relationship": "variable",
+          "depth": 1,
+          "risk_score": 0.5,
+          "line_no": 4
+        },
+        {
+          "source": 71,
+          "target": 27,
+          "relationship": "call",
+          "depth": 1,
+          "risk_score": 0.8,
+          "line_no": 4
+        },
+        {
+          "source": 71,
+          "target": 15,
+          "relationship": "call",
+          "depth": 1,
+          "risk_score": 0.8,
+          "line_no": 5
+        }
+      ]
+    },
+    "72": {
+      "node": 72,
+      "dependencies": []
+    },
+    "73": {
+      "node": 73,
+      "dependencies": []
+    },
+    "74": {
+      "node": 74,
+      "dependencies": [
+        {
+          "source": 74,
+          "target": 24,
+          "relationship": "import",
+          "depth": 1,
+          "risk_score": 0.7,
+          "line_no": 1
+        },
+        {
+          "source": 74,
+          "target": 75,
+          "relationship": "classin",
+          "depth": 1,
+          "risk_score": 0.5,
+          "line_no": 3
+        },
+        {
+          "source": 75,
+          "target": 76,
+          "relationship": "methodin",
+          "depth": 2,
+          "risk_score": 0.6,
+          "line_no": 4
+        },
+        {
+          "source": 75,
+          "target": 77,
+          "relationship": "methodin",
+          "depth": 2,
+          "risk_score": 0.6,
+          "line_no": 7
+        },
+        {
+          "source": 77,
+          "target": 78,
+          "relationship": "variable",
+          "depth": 3,
+          "risk_score": 0.5,
+          "line_no": 8
+        },
+        {
+          "source": 77,
+          "target": 79,
+          "relationship": "call",
+          "depth": 3,
+          "risk_score": 0.8,
+          "line_no": 8
+        }
+      ]
+    },
+    "75": {
+      "node": 75,
+      "dependencies": [
+        {
+          "source": 75,
+          "target": 76,
+          "relationship": "methodin",
+          "depth": 1,
+          "risk_score": 0.6,
+          "line_no": 4
+        },
+        {
+          "source": 75,
+          "target": 77,
+          "relationship": "methodin",
+          "depth": 1,
+          "risk_score": 0.6,
+          "line_no": 7
+        },
+        {
+          "source": 77,
+          "target": 78,
+          "relationship": "variable",
+          "depth": 2,
+          "risk_score": 0.5,
+          "line_no": 8
+        },
+        {
+          "source": 77,
+          "target": 79,
+          "relationship": "call",
+          "depth": 2,
+          "risk_score": 0.8,
+          "line_no": 8
+        }
+      ]
+    },
+    "76": {
+      "node": 76,
+      "dependencies": []
+    },
+    "77": {
+      "node": 77,
+      "dependencies": [
+        {
+          "source": 77,
+          "target": 78,
+          "relationship": "variable",
+          "depth": 1,
+          "risk_score": 0.5,
+          "line_no": 8
+        },
+        {
+          "source": 77,
+          "target": 79,
+          "relationship": "call",
+          "depth": 1,
+          "risk_score": 0.8,
+          "line_no": 8
+        }
+      ]
+    },
+    "78": {
+      "node": 78,
+      "dependencies": []
+    },
+    "79": {
+      "node": 79,
+      "dependencies": []
+    },
+    "80": {
+      "node": 80,
+      "dependencies": [
+        {
+          "source": 80,
+          "target": 25,
+          "relationship": "import",
+          "depth": 1,
+          "risk_score": 0.7,
+          "line_no": 1
+        },
+        {
+          "source": 80,
+          "target": 23,
+          "relationship": "import",
+          "depth": 1,
+          "risk_score": 0.7,
+          "line_no": 2
+        },
+        {
+          "source": 80,
+          "target": 81,
+          "relationship": "classin",
+          "depth": 1,
+          "risk_score": 0.5,
+          "line_no": 4
+        },
+        {
+          "source": 81,
+          "target": 82,
+          "relationship": "methodin",
+          "depth": 2,
+          "risk_score": 0.6,
+          "line_no": 5
+        },
+        {
+          "source": 81,
+          "target": 83,
+          "relationship": "methodin",
+          "depth": 2,
+          "risk_score": 0.6,
+          "line_no": 8
+        },
+        {
+          "source": 83,
+          "target": 84,
+          "relationship": "call",
+          "depth": 3,
+          "risk_score": 0.8,
+          "line_no": 9
+        }
+      ]
+    },
+    "81": {
+      "node": 81,
+      "dependencies": [
+        {
+          "source": 81,
+          "target": 82,
+          "relationship": "methodin",
+          "depth": 1,
+          "risk_score": 0.6,
+          "line_no": 5
+        },
+        {
+          "source": 81,
+          "target": 83,
+          "relationship": "methodin",
+          "depth": 1,
+          "risk_score": 0.6,
+          "line_no": 8
+        },
+        {
+          "source": 83,
+          "target": 84,
+          "relationship": "call",
+          "depth": 2,
+          "risk_score": 0.8,
+          "line_no": 9
+        }
+      ]
+    },
+    "82": {
+      "node": 82,
+      "dependencies": []
+    },
+    "83": {
+      "node": 83,
+      "dependencies": [
+        {
+          "source": 83,
+          "target": 84,
+          "relationship": "call",
+          "depth": 1,
+          "risk_score": 0.8,
+          "line_no": 9
+        }
+      ]
+    },
+    "84": {
+      "node": 84,
+      "dependencies": []
+    },
+    "85": {
+      "node": 85,
+      "dependencies": [
+        {
+          "source": 85,
+          "target": 86,
+          "relationship": "import",
+          "depth": 1,
+          "risk_score": 0.7,
+          "line_no": 1
+        },
+        {
+          "source": 85,
+          "target": 86,
+          "relationship": "import",
+          "depth": 1,
+          "risk_score": 0.7,
+          "line_no": 2
+        },
+        {
+          "source": 85,
+          "target": 86,
+          "relationship": "import",
+          "depth": 1,
+          "risk_score": 0.7,
+          "line_no": 3
+        },
+        {
+          "source": 85,
+          "target": 8,
+          "relationship": "import",
+          "depth": 1,
+          "risk_score": 0.7,
+          "line_no": 4
+        },
+        {
+          "source": 85,
+          "target": 87,
+          "relationship": "variable",
+          "depth": 1,
+          "risk_score": 0.5,
+          "line_no": 6
+        },
+        {
+          "source": 85,
+          "target": 88,
+          "relationship": "call",
+          "depth": 1,
+          "risk_score": 0.8,
+          "line_no": 6
+        },
+        {
+          "source": 85,
+          "target": 89,
+          "relationship": "variable",
+          "depth": 1,
+          "risk_score": 0.5,
+          "line_no": 8
+        },
+        {
+          "source": 85,
+          "target": 90,
+          "relationship": "call",
+          "depth": 1,
+          "risk_score": 0.8,
+          "line_no": 8
+        },
+        {
+          "source": 85,
+          "target": 91,
+          "relationship": "variable",
+          "depth": 1,
+          "risk_score": 0.5,
+          "line_no": 9
+        },
+        {
+          "source": 85,
+          "target": 92,
+          "relationship": "call",
+          "depth": 1,
+          "risk_score": 0.8,
+          "line_no": 9
+        },
+        {
+          "source": 85,
+          "target": 93,
+          "relationship": "variable",
+          "depth": 1,
+          "risk_score": 0.5,
+          "line_no": 10
+        },
+        {
+          "source": 85,
+          "target": 94,
+          "relationship": "call",
+          "depth": 1,
+          "risk_score": 0.8,
+          "line_no": 10
+        },
+        {
+          "source": 85,
+          "target": 95,
+          "relationship": "methodin",
+          "depth": 1,
+          "risk_score": 0.6,
+          "line_no": 12
+        },
+        {
+          "source": 95,
+          "target": 96,
+          "relationship": "variable",
+          "depth": 2,
+          "risk_score": 0.5,
+          "line_no": 13
+        },
+        {
+          "source": 95,
+          "target": 97,
+          "relationship": "call",
+          "depth": 2,
+          "risk_score": 0.8,
+          "line_no": 13
+        },
+        {
+          "source": 95,
+          "target": 98,
+          "relationship": "call",
+          "depth": 2,
+          "risk_score": 0.8,
+          "line_no": 17
+        }
+      ]
+    },
+    "86": {
+      "node": 86,
+      "dependencies": []
+    },
+    "87": {
+      "node": 87,
+      "dependencies": []
+    },
+    "88": {
+      "node": 88,
+      "dependencies": []
+    },
+    "89": {
+      "node": 89,
+      "dependencies": []
+    },
+    "90": {
+      "node": 90,
+      "dependencies": []
+    },
+    "91": {
+      "node": 91,
+      "dependencies": []
+    },
+    "92": {
+      "node": 92,
+      "dependencies": []
+    },
+    "93": {
+      "node": 93,
+      "dependencies": []
+    },
+    "94": {
+      "node": 94,
+      "dependencies": []
+    },
+    "95": {
+      "node": 95,
+      "dependencies": [
+        {
+          "source": 95,
+          "target": 96,
+          "relationship": "variable",
+          "depth": 1,
+          "risk_score": 0.5,
+          "line_no": 13
+        },
+        {
+          "source": 95,
+          "target": 97,
+          "relationship": "call",
+          "depth": 1,
+          "risk_score": 0.8,
+          "line_no": 13
+        },
+        {
+          "source": 95,
+          "target": 98,
+          "relationship": "call",
+          "depth": 1,
+          "risk_score": 0.8,
+          "line_no": 17
+        }
+      ]
+    },
+    "96": {
+      "node": 96,
+      "dependencies": []
+    },
+    "97": {
+      "node": 97,
+      "dependencies": []
+    },
+    "98": {
+      "node": 98,
+      "dependencies": []
+    },
+    "99": {
+      "node": 99,
+      "dependencies": [
+        {
+          "source": 99,
+          "target": 86,
+          "relationship": "import",
+          "depth": 1,
+          "risk_score": 0.7,
+          "line_no": 1
+        },
+        {
+          "source": 99,
+          "target": 86,
+          "relationship": "import",
+          "depth": 1,
+          "risk_score": 0.7,
+          "line_no": 2
+        },
+        {
+          "source": 99,
+          "target": 8,
+          "relationship": "import",
+          "depth": 1,
+          "risk_score": 0.7,
+          "line_no": 3
+        },
+        {
+          "source": 99,
+          "target": 100,
+          "relationship": "classin",
+          "depth": 1,
+          "risk_score": 0.5,
+          "line_no": 5
+        },
+        {
+          "source": 99,
+          "target": 102,
+          "relationship": "variable",
+          "depth": 1,
+          "risk_score": 0.5,
+          "line_no": 6
+        },
+        {
+          "source": 99,
+          "target": 103,
+          "relationship": "variable",
+          "depth": 1,
+          "risk_score": 0.5,
+          "line_no": 7
+        },
+        {
+          "source": 99,
+          "target": 104,
+          "relationship": "call",
+          "depth": 1,
+          "risk_score": 0.8,
+          "line_no": 7
+        },
+        {
+          "source": 99,
+          "target": 105,
+          "relationship": "variable",
+          "depth": 1,
+          "risk_score": 0.5,
+          "line_no": 8
+        },
+        {
+          "source": 99,
+          "target": 104,
+          "relationship": "call",
+          "depth": 1,
+          "risk_score": 0.8,
+          "line_no": 8
+        },
+        {
+          "source": 99,
+          "target": 106,
+          "relationship": "variable",
+          "depth": 1,
+          "risk_score": 0.5,
+          "line_no": 9
+        },
+        {
+          "source": 99,
+          "target": 104,
+          "relationship": "call",
+          "depth": 1,
+          "risk_score": 0.8,
+          "line_no": 9
+        },
+        {
+          "source": 100,
+          "target": 101,
+          "relationship": "inheritance",
+          "depth": 2,
+          "risk_score": 0.9,
+          "line_no": 5
+        }
+      ]
+    },
+    "100": {
+      "node": 100,
+      "dependencies": [
+        {
+          "source": 100,
+          "target": 101,
+          "relationship": "inheritance",
+          "depth": 1,
+          "risk_score": 0.9,
+          "line_no": 5
+        }
+      ]
+    },
+    "101": {
+      "node": 101,
+      "dependencies": []
+    },
+    "102": {
+      "node": 102,
+      "dependencies": []
+    },
+    "103": {
+      "node": 103,
+      "dependencies": []
+    },
+    "104": {
+      "node": 104,
+      "dependencies": []
+    },
+    "105": {
+      "node": 105,
+      "dependencies": []
+    },
+    "106": {
+      "node": 106,
+      "dependencies": []
+    },
+    "107": {
+      "node": 107,
+      "dependencies": [
+        {
+          "source": 107,
+          "target": 86,
+          "relationship": "import",
+          "depth": 1,
+          "risk_score": 0.7,
+          "line_no": 1
+        },
+        {
+          "source": 107,
+          "target": 22,
+          "relationship": "import",
+          "depth": 1,
+          "risk_score": 0.7,
+          "line_no": 2
+        },
+        {
+          "source": 107,
+          "target": 25,
+          "relationship": "import",
+          "depth": 1,
+          "risk_score": 0.7,
+          "line_no": 3
+        },
+        {
+          "source": 107,
+          "target": 108,
+          "relationship": "classin",
+          "depth": 1,
+          "risk_score": 0.5,
+          "line_no": 5
+        },
+        {
+          "source": 108,
+          "target": 109,
+          "relationship": "methodin",
+          "depth": 2,
+          "risk_score": 0.6,
+          "line_no": 6
+        },
+        {
+          "source": 108,
+          "target": 110,
+          "relationship": "methodin",
+          "depth": 2,
+          "risk_score": 0.6,
+          "line_no": 9
+        },
+        {
+          "source": 110,
+          "target": 111,
+          "relationship": "variable",
+          "depth": 3,
+          "risk_score": 0.5,
+          "line_no": 10
+        },
+        {
+          "source": 110,
+          "target": 112,
+          "relationship": "call",
+          "depth": 3,
+          "risk_score": 0.8,
+          "line_no": 10
+        },
+        {
+          "source": 110,
+          "target": 113,
+          "relationship": "variable",
+          "depth": 3,
+          "risk_score": 0.5,
+          "line_no": 11
+        },
+        {
+          "source": 110,
+          "target": 114,
+          "relationship": "call",
+          "depth": 3,
+          "risk_score": 0.8,
+          "line_no": 11
+        },
+        {
+          "source": 110,
+          "target": 115,
+          "relationship": "call",
+          "depth": 3,
+          "risk_score": 0.8,
+          "line_no": 12
+        },
+        {
+          "source": 110,
+          "target": 116,
+          "relationship": "call",
+          "depth": 3,
+          "risk_score": 0.8,
+          "line_no": 13
+        },
+        {
+          "source": 110,
+          "target": 117,
+          "relationship": "call",
+          "depth": 3,
+          "risk_score": 0.8,
+          "line_no": 14
+        }
+      ]
+    },
+    "108": {
+      "node": 108,
+      "dependencies": [
+        {
+          "source": 108,
+          "target": 109,
+          "relationship": "methodin",
+          "depth": 1,
+          "risk_score": 0.6,
+          "line_no": 6
+        },
+        {
+          "source": 108,
+          "target": 110,
+          "relationship": "methodin",
+          "depth": 1,
+          "risk_score": 0.6,
+          "line_no": 9
+        },
+        {
+          "source": 110,
+          "target": 111,
+          "relationship": "variable",
+          "depth": 2,
+          "risk_score": 0.5,
+          "line_no": 10
+        },
+        {
+          "source": 110,
+          "target": 112,
+          "relationship": "call",
+          "depth": 2,
+          "risk_score": 0.8,
+          "line_no": 10
+        },
+        {
+          "source": 110,
+          "target": 113,
+          "relationship": "variable",
+          "depth": 2,
+          "risk_score": 0.5,
+          "line_no": 11
+        },
+        {
+          "source": 110,
+          "target": 114,
+          "relationship": "call",
+          "depth": 2,
+          "risk_score": 0.8,
+          "line_no": 11
+        },
+        {
+          "source": 110,
+          "target": 115,
+          "relationship": "call",
+          "depth": 2,
+          "risk_score": 0.8,
+          "line_no": 12
+        },
+        {
+          "source": 110,
+          "target": 116,
+          "relationship": "call",
+          "depth": 2,
+          "risk_score": 0.8,
+          "line_no": 13
+        },
+        {
+          "source": 110,
+          "target": 117,
+          "relationship": "call",
+          "depth": 2,
+          "risk_score": 0.8,
+          "line_no": 14
+        }
+      ]
+    },
+    "109": {
+      "node": 109,
+      "dependencies": []
+    },
+    "110": {
+      "node": 110,
+      "dependencies": [
+        {
+          "source": 110,
+          "target": 111,
+          "relationship": "variable",
+          "depth": 1,
+          "risk_score": 0.5,
+          "line_no": 10
+        },
+        {
+          "source": 110,
+          "target": 112,
+          "relationship": "call",
+          "depth": 1,
+          "risk_score": 0.8,
+          "line_no": 10
+        },
+        {
+          "source": 110,
+          "target": 113,
+          "relationship": "variable",
+          "depth": 1,
+          "risk_score": 0.5,
+          "line_no": 11
+        },
+        {
+          "source": 110,
+          "target": 114,
+          "relationship": "call",
+          "depth": 1,
+          "risk_score": 0.8,
+          "line_no": 11
+        },
+        {
+          "source": 110,
+          "target": 115,
+          "relationship": "call",
+          "depth": 1,
+          "risk_score": 0.8,
+          "line_no": 12
+        },
+        {
+          "source": 110,
+          "target": 116,
+          "relationship": "call",
+          "depth": 1,
+          "risk_score": 0.8,
+          "line_no": 13
+        },
+        {
+          "source": 110,
+          "target": 117,
+          "relationship": "call",
+          "depth": 1,
+          "risk_score": 0.8,
+          "line_no": 14
+        }
+      ]
+    },
+    "111": {
+      "node": 111,
+      "dependencies": []
+    },
+    "112": {
+      "node": 112,
+      "dependencies": []
+    },
+    "113": {
+      "node": 113,
+      "dependencies": []
+    },
+    "114": {
+      "node": 114,
+      "dependencies": []
+    },
+    "115": {
+      "node": 115,
+      "dependencies": []
+    },
+    "116": {
+      "node": 116,
+      "dependencies": []
+    },
+    "117": {
+      "node": 117,
+      "dependencies": []
+    }
+  }
+}
